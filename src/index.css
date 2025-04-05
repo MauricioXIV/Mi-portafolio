@@ -4,8 +4,8 @@
 
 @layer components {
     .navbar {
-      @apply  text-white flex flex-wrap justify-between items-center lg:w-1/2
-      md:w-2/3 sm:w-full text-xs mb-40
+      @apply  text-white flex flex-wrap justify-between items-center lg:w-2/3
+      md:w-full sm:w-full text-xs mb-36
     }
   }
 
@@ -51,6 +51,18 @@
   }
 }
 
+@layer components {
+  .imagenes {
+    @apply flex flex-wrap justify-center items-center w-2/3 mt-4 mb-12
+  }
+}
+
+@layer components {
+  .proyectos {
+    @apply w-full flex flex-wrap justify-center items-center bg-stone-950
+  }
+}
+
 body {
   background: #161612;
 }
@@ -63,9 +75,15 @@ body {
     @apply text-xxl font-semibold text-yellow-200 larguito:w-2/3
   }
   h3 {
-    @apply text-xl font-bold text-gray-200
+    @apply text-base font-normal text-gray-500
   }
   p {
     @apply text-lg text-gray-400 maso:w-full
+  }
+}
+
+@layer components {
+  .aimag{
+    @apply flex mx-1
   }
 }
