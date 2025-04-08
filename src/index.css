@@ -4,8 +4,8 @@
 
 @layer components {
     .navbar {
-      @apply  text-white flex flex-wrap justify-between items-center lg:w-2/3
-      md:w-full sm:w-full text-xs mb-36
+      @apply  text-white flex flex-wrap justify-between items-center lg:w-full
+      md:w-full sm:w-full text-xs mb-36 fixed z-50 bg-[#161612] h-[60px]
     }
   }
 
@@ -17,26 +17,28 @@
 
 @layer components {
   .presentation {
-    @apply w-full text-center flex flex-wrap justify-center
+    @apply w-full text-center flex flex-wrap justify-center pt-24
     mb-8
   }
 }
 
 @layer components {
   .apartado {
-    @apply w-1/6 text-gray-400
+    @apply sm:w-1/12 md:w-1/12 larguito:w-1/12 lg:w-1/12 xl:w-32 text-gray-400
+    hover:text-white hover:cursor-pointer
   }
 }
 
 @layer components {
   .yo {
-    @apply w-1/3 pt-2 text-gray-200
+    @apply w-2/5 pt-2 text-gray-200
+    flex flex-wrap
   }
 }
 
 @layer components {
   .imagen{
-    @apply w-1/6 rounded-full
+    @apply w-1/6 rounded-xl
   }
 }
 @layer components {
@@ -100,10 +102,23 @@
     mb-16
   }
 }
+@layer components {
+  .contenedor-tecnologiadebajo {
+    @apply w-full flex flex-wrap items-center
+    mb-16
+  }
+}
 
 @layer components {
   .tecnologia {
     @apply sm:w-1/3 larguito:w-1/3 lg:w-1/5 text-gray-500 text-sm p-2 text-center
+  }
+}
+
+@layer components {
+  .tecnologiadebajo {
+    @apply text-gray-300 text-sm p-2 text-center border border-gray-700
+    rounded-xl m-2 hover:bg-gray-800 hover:scale-105 transition-transform duration-300
   }
 }
 

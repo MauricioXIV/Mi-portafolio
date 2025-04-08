@@ -11,6 +11,7 @@ import prof from "../images/mauprof.jpg";
 const Inicio = () => {
   return (
     <>
+    <section id="inicio">
     <div className="presentation">
       <h2>Web Developer</h2>
       <h1>Mauricio Rodríguez Ballesteros</h1>
@@ -58,6 +59,8 @@ const Inicio = () => {
       /></div>
       </div>
     </div>
+    </section>
+    <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-16" id="proyectos" >
     <div className="proyectos">
       <div className="w-2/3 mt-6 text-blue-900 mb-1"><div>Proyectos</div></div>
       <div className="w-2/3"><h1 className="text-xl font-medium mb-4">Mis proyectos</h1></div>
@@ -69,6 +72,7 @@ const Inicio = () => {
         </div>
       </div>
     </div>
+    </section>
     <div className="contenedor-marketmaster">
     <div className="w-2/3 mb-4"><h3 className="text-lg text-blue-900 font-semibold">Full Stack</h3></div>
       <div className="marketmaster">
@@ -92,7 +96,7 @@ const Inicio = () => {
           </div>
         </div>
         <div className="imagenmaster sm:ml-0 lg:ml-0 sm:justify-center">
-          <div className="laimagen sm:h-auto lg:h-auto"><img src={inicio} className="w-full"/></div>
+          <div className="laimagen sm:h-auto lg:h-auto"><img src={inicio} className="w-full rounded-lg"/></div>
           <div className="text-white w-full text-center self-start"> Visita <a href="https://marketmasterplus.netlify.app/login">MarketMaster <u>aquí</u></a></div>
         </div>
       </div>
@@ -120,17 +124,19 @@ const Inicio = () => {
           </div>
         </div>
         <div className="imagenmaster sm:ml-0 ml-10">
-          <div className="laimagen"><img src={DolceAm} className="sm:w-full lg:w-5/6 mb-4 border border-gray-600"/></div>
-          <div className="laimagen sm:h-auto md:h-auto lg:h-auto"><img src={balance} className="sm:w-full lg:w-2/3 justify-self-end border border-gray-600"/></div>
+          <div className="laimagen"><img src={DolceAm} className="sm:w-full lg:w-5/6 mb-4 border border-gray-600 rounded-lg"/></div>
+          <div className="laimagen sm:h-auto md:h-auto lg:h-auto"><img src={balance} className="sm:w-full lg:w-2/3 justify-self-end border border-gray-600 rounded-lg"/></div>
           <div className="text-sm text-gray-700 text-right w-full self-start">**Los datos mostrados forman parte de una prueba ficticia</div>
         </div>
       </div>
     </div>
     <div className="proyectos pt-10 mb-4">
+      <section className="proyectos pt-12 mb-4 scroll-mt-16" id="sobremi" >
       <div className="w-2/3 text-blue-900"><div>Sobre mí</div></div>
-      <div className="w-2/3 flex flex-wrap"><h1 className="text-xl font-medium mb-4 flex mt-1 w-full">
-        Mauricio Rodríguez Ballesteros</h1>
+      <div className="w-2/3 flex flex-wrap">
         <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
+        <h1 className="text-xl font-medium mb-4 flex mt-1 w-full">
+        Mauricio Rodríguez Ballesteros</h1>
             <p className="text-base mb-4 lg:w-full ">Estudiante de <b className="text-gray-200">Administración de Empresas</b>, actualmente curso el
             octavo y último semestre de la carrera en la Universidad Autónoma de Occidente, ubicada en Mazatlán, Sinaloa, México.</p>
             <p className="text-base mb-4 lg:w-full"> Desde 2024 me volví autodidacta en <b className="text-gray-200">ciencias de la computación</b>, encontrando mi pasión
@@ -143,7 +149,7 @@ const Inicio = () => {
             </p>
         </div>
         <div className="imagenmaster sm:ml-0 items-end lg:w-1/2">
-          <div className="laimagen"><img src={prof} alt="Mauricio" className="sm:w-1/2 md:w-1/2 larguito:w-2/3 lg:w-2/3 mb-4 border border-gray-600 justify-self-center"/></div>
+          <div className="laimagen"><img src={prof} alt="Mauricio" className="sm:w-1/2 md:w-1/2 larguito:w-2/3 lg:w-2/3 mb-4 border border-gray-600 justify-self-center rounded-lg"/></div>
           <div className="w-full justify-evenly flex flex-wrap">
             <p className="w-full text-center mb-2">Descargar:</p>
             <div className="w-1/3"><a href="../public/ingles.pdf" download="CertificadoInglesMauricio"><button className="elboton">Certificado Inglés</button></a></div>
@@ -151,7 +157,41 @@ const Inicio = () => {
           </div>
         </div>
       </div>
-      
+      </section>
+      <div className="contenedor-marketmaster pt-12">
+      <section className="contenedor-marketmaster pt-12" id="skills" >
+    <div className="w-2/3 mb-4 mt-12"><h3 className="text-lg text-blue-900 font-semibold">Skills</h3></div>
+      <div className="marketmaster">
+        <div className="infomaster larguito:w-full lg:w-full">
+          <h1 className="text-xl mb-4">Mis skills principales</h1>
+          <div className="contenedor-tecnologiadebajo">
+            <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">React</div>
+            <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django</div>
+            <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django REST Framework</div>
+            <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">JavaScript</div>
+            <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Python</div>
+            <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">HTML</div>
+            <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">CSS</div>
+            <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
+            <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
+          </div>
+          <h1 className="text-xl mb-4">Mis skills secundarias</h1>
+          <div className="contenedor-tecnologiadebajo">
+            <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
+            <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
+            <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">SQLite</div>
+            <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">MongoDB</div>
+          </div>
+          <h1 className="text-xl mb-4">Poseo conocimientos en</h1>
+          <div className="contenedor-tecnologiadebajo">
+            <div className="tecnologiadebajo w-1/3">C</div>
+            <div className="tecnologiadebajo w-1/3">Algoritmos</div>
+            <div className="tecnologiadebajo w-1/3">Bootstrap</div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
     </div>
     </>
   );
