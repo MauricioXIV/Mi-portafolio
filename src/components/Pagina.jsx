@@ -33,7 +33,7 @@ const Pagina = () => {
               <button className="boton"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub -></a></button>
               </div>
               <div className="w-2/3 flex sm:justify-center my-4">
-              <button className="boton bg-[#161612] border font-semibold flex items-center"><a className="flex items-center w-full" href="../public/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 larguito:mr-4 lg:mr-0 xl:mr-6">Descargar CV</div></a></button>
+              <button className="boton bg-[#161612] border font-semibold flex items-center"><a className="flex items-center w-full" href="/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 larguito:mr-4 lg:mr-0 xl:mr-6">Descargar CV</div></a></button>
               </div>
               <div className="imagenes">
                 <div className="aimag"><img src={ReactLogo} /></div>
@@ -115,7 +115,7 @@ const Pagina = () => {
                   <div className="laimagen"><img src={prof} alt="Mauricio" className="sm:w-1/2 md:w-1/2 larguito:w-2/3 lg:w-2/3 mb-4 border border-gray-600 justify-self-center rounded-lg"/></div>
                   <div className="w-full justify-evenly flex flex-wrap">
                     <p className="w-full text-center mb-2">Descargar:</p>
-                    <div className="w-1/3"><a href="../public/ingles.pdf" download="CertificadoInglesMauricio"><button className="elboton">Certificado Inglés</button></a></div>
+                    <div className="w-1/3"><a href="/ingles.pdf" download="CertificadoInglesMauricio"><button className="elboton">Certificado Inglés</button></a></div>
                     <div className="w-1/3"><a href="/CertificadoCS50x.pdf" download="CertificadoCS50xMauricio"><button className="elboton">Certificado Ciencias Comp.</button></a></div>
                   </div>
                 </div>
@@ -170,7 +170,7 @@ const Pagina = () => {
                   <button className="boton"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub -></a></button>
                   </div>
                   <div className="w-2/3 flex sm:justify-center my-4">
-                  <button className="boton bg-[#161612] border font-semibold flex items-center"><a className="flex items-center w-full" href="../public/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 larguito:mr-4 lg:mr-0 xl:mr-6">Download CV</div></a></button>
+                  <button className="boton bg-[#161612] border font-semibold flex items-center"><a className="flex items-center w-full" href="/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 larguito:mr-4 lg:mr-0 xl:mr-6">Download CV</div></a></button>
                   </div>
                   <div className="imagenes">
                     <div className="aimag"><img src={ReactLogo} /></div>
@@ -251,7 +251,7 @@ const Pagina = () => {
                       <div className="laimagen"><img src={prof} alt="Mauricio" className="sm:w-1/2 md:w-1/2 larguito:w-2/3 lg:w-2/3 mb-4 border border-gray-600 justify-self-center rounded-lg"/></div>
                       <div className="w-full justify-evenly flex flex-wrap">
                         <p className="w-full text-center mb-2">Download:</p>
-                        <div className="w-1/3"><a href="../public/ingles.pdf" download="CertificadoInglesMauricio"><button className="elboton">English certificate</button></a></div>
+                        <div className="w-1/3"><a href="/ingles.pdf" download="CertificadoInglesMauricio"><button className="elboton">English certificate</button></a></div>
                         <div className="w-1/3"><a href="/CertificadoCS50x.pdf" download="CertificadoCS50xMauricio"><button className="elboton">CS certificate</button></a></div>
                       </div>
                     </div>
