@@ -244,7 +244,7 @@ const Pagina = () => {
                         <p className="text-base mb-4 lg:w-full">I hold an <b className="text-gray-200">English certification </b> from the American English Academy, 
                         as well as a <b className="text-gray-200">Computer Science certification</b> endorsed by Harvard University.
                         </p>
-                        <p className="text-base mb-4 lg:w-full">I am 23 years old and originally from Mazatlán. My main hobbies are reading, exercising, and music.
+                        <p className="text-base mb-4 lg:w-full">I am 23 years old and originally from Mazatlán. My main hobbies are reading, exercising, and listening music.
                         </p>
                     </div>
                     <div className="imagenmaster sm:ml-0 items-end lg:w-1/2">

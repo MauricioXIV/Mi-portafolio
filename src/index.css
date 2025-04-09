@@ -5,7 +5,7 @@
 @layer components {
     .navbar {
       @apply  text-white flex flex-wrap justify-between items-center lg:w-full
-      md:w-full sm:w-full xs:w-full text-xs mb-36 fixed z-50 bg-[#161612] h-[60px]
+      md:w-full sm:w-full xs:w-full text-xs mb-36 fixed z-50 bg-[#161612] h-[60px] p-2
     }
   }
 
@@ -149,6 +149,6 @@ body {
 
 @layer components {
   .elboton{
-    @apply border text-white text-sm rounded-lg p-2 font-semibold hover:bg-gray-700 w-full
+    @apply border text-white xs:text-xs sm:text-sm md:text-sm larguito:text-sm lg:text-sm xl:text-sm rounded-lg p-2 font-semibold hover:bg-gray-700 w-full
   }
 }
