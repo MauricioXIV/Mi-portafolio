@@ -28,9 +28,9 @@ const Pagina = () => {
               <p>Full stack React & Django</p>
             </div>
             <div className="botonlogo">
-              <div className="w-2/3 flex sm:justify-evenly maso:justify-evenly md:justify-evenly larguito:justify-evenly lg:justify-center">
-              <button className="boton"><a href="https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-ballesteros-36058a343/">Linkedin -></a></button>
-              <button className="boton"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub -></a></button>
+              <div className="w-2/3 flex xs:justify-center sm:justify-evenly maso:justify-evenly md:justify-evenly larguito:justify-evenly lg:justify-center">
+              <button className="boton p-2 h-auto"><a href="https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-ballesteros-36058a343/">Linkedin -></a></button>
+              <button className="boton p-2 h-auto"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub -></a></button>
               </div>
               <div className="w-2/3 flex sm:justify-center my-4">
               <button className="boton bg-[#161612] border font-semibold flex items-center"><a className="flex items-center w-full" href="/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 larguito:mr-4 lg:mr-0 xl:mr-6">Descargar CV</div></a></button>
@@ -79,7 +79,7 @@ const Pagina = () => {
               <div className="w-2/3 mt-6 text-blue-900 mb-1"><div>Proyectos</div></div>
               <div className="w-2/3"><h1 className="text-xl font-medium mb-4">Mis proyectos</h1></div>
               <div className="w-2/3 flex rounded-lg text-center">
-                <div className="sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-16">
+                <div className=" xs:w-full sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-16">
                   <div onClick={() => setProyecto(0)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Todos</div>
                   <div onClick={() => setProyecto(1)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Full Stack</div>
                   <div onClick={() => setProyecto(2)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Backend</div>
@@ -128,29 +128,29 @@ const Pagina = () => {
                 <div className="infomaster larguito:w-full lg:w-full">
                   <h1 className="text-xl mb-4">Mis skills principales</h1>
                   <div className="contenedor-tecnologiadebajo">
-                    <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">React</div>
-                    <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django</div>
-                    <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django REST Framework</div>
-                    <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">JavaScript</div>
-                    <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Python</div>
-                    <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">HTML</div>
-                    <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">CSS</div>
-                    <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
-                    <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
-                  </div>
-                  <h1 className="text-xl mb-4">Mis skills secundarias</h1>
-                  <div className="contenedor-tecnologiadebajo">
-                    <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
-                    <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
-                    <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">SQLite</div>
-                    <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">MongoDB</div>
-                  </div>
-                  <h1 className="text-xl mb-4">Poseo conocimientos en</h1>
-                  <div className="contenedor-tecnologiadebajo">
-                    <div className="tecnologiadebajo w-1/3">C</div>
-                    <div className="tecnologiadebajo w-1/3">Algoritmos</div>
-                    <div className="tecnologiadebajo w-1/3">Bootstrap</div>
-                  </div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">React</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django REST Framework</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">JavaScript</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Python</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">HTML</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">CSS</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
+                      </div>
+                      <h1 className="text-xl mb-4">My skills secundarias</h1>
+                      <div className="contenedor-tecnologiadebajo">
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">SQLite</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">MongoDB</div>
+                      </div>
+                      <h1 className="text-xl mb-4">Poseo conocimiento en</h1>
+                      <div className="contenedor-tecnologiadebajo">
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">C</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">Algoritmos</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">Bootstrap</div>
+                      </div>
                 </div>
               </div>
               </section>
@@ -165,9 +165,9 @@ const Pagina = () => {
                   <p>Full stack React & Django</p>
                 </div>
                 <div className="botonlogo">
-                  <div className="w-2/3 flex sm:justify-evenly maso:justify-evenly md:justify-evenly larguito:justify-evenly lg:justify-center">
-                  <button className="boton"><a href="https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-ballesteros-36058a343/">Linkedin -></a></button>
-                  <button className="boton"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub -></a></button>
+                  <div className="w-2/3 flex xs:justify-center sm:justify-evenly maso:justify-evenly md:justify-evenly larguito:justify-evenly lg:justify-center">
+                  <button className="boton p-2 h-auto"><a href="https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-ballesteros-36058a343/">Linkedin -></a></button>
+                  <button className="boton p-2 h-auto"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub -></a></button>
                   </div>
                   <div className="w-2/3 flex sm:justify-center my-4">
                   <button className="boton bg-[#161612] border font-semibold flex items-center"><a className="flex items-center w-full" href="/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 larguito:mr-4 lg:mr-0 xl:mr-6">Download CV</div></a></button>
@@ -216,7 +216,7 @@ const Pagina = () => {
                   <div className="w-2/3 mt-6 text-blue-900 mb-1"><div>Projects</div></div>
                   <div className="w-2/3"><h1 className="text-xl font-medium mb-4">My projects</h1></div>
                   <div className="w-2/3 flex rounded-lg text-center">
-                    <div className="sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-16">
+                    <div className="xs:w-full sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-16">
                       <div onClick={() => setProyecto(0)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">All</div>
                       <div onClick={() => setProyecto(1)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Full Stack</div>
                       <div onClick={() => setProyecto(2)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Backend</div>
@@ -264,28 +264,28 @@ const Pagina = () => {
                     <div className="infomaster larguito:w-full lg:w-full">
                       <h1 className="text-xl mb-4">My main skills</h1>
                       <div className="contenedor-tecnologiadebajo">
-                        <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">React</div>
-                        <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django</div>
-                        <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django REST Framework</div>
-                        <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">JavaScript</div>
-                        <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Python</div>
-                        <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">HTML</div>
-                        <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">CSS</div>
-                        <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
-                        <div className="tecnologiadebajo sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">React</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django REST Framework</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">JavaScript</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Python</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">HTML</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">CSS</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
                       </div>
                       <h1 className="text-xl mb-4">My secondary skills</h1>
                       <div className="contenedor-tecnologiadebajo">
-                        <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
-                        <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
-                        <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">SQLite</div>
-                        <div className="tecnologiadebajo sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">MongoDB</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">SQLite</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">MongoDB</div>
                       </div>
                       <h1 className="text-xl mb-4">I have knowledge in</h1>
                       <div className="contenedor-tecnologiadebajo">
-                        <div className="tecnologiadebajo w-1/3">C</div>
-                        <div className="tecnologiadebajo w-1/3">Algorythms</div>
-                        <div className="tecnologiadebajo w-1/3">Bootstrap</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">C</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">Algorythms</div>
+                        <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">Bootstrap</div>
                       </div>
                     </div>
                   </div>

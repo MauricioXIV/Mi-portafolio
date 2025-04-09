@@ -29,7 +29,7 @@ const Backend = ( { gato, DolceAm, balance } ) => {
                     <div className="tecnologia sm:w-1/2 md:w-full lg:w-1/4">MongoDB</div>
                     </div>
                 </div>
-                <div className="imagenmaster sm:ml-0 ml-10">
+                <div className="imagenmaster sm:ml-0">
                     <div className="laimagen"><img src={DolceAm} className="sm:w-full lg:w-5/6 mb-4 border border-gray-600 rounded-lg"/></div>
                     <div className="laimagen sm:h-auto md:h-auto lg:h-auto"><img src={balance} className="sm:w-full lg:w-2/3 justify-self-end border border-gray-600 rounded-lg"/></div>
                     <div className="text-sm text-gray-700 text-right w-full self-start">**Los datos mostrados forman parte de una prueba ficticia</div>
@@ -58,7 +58,7 @@ const Backend = ( { gato, DolceAm, balance } ) => {
                     <div className="tecnologia sm:w-1/2 md:w-full lg:w-1/4">MongoDB</div>
                   </div>
                 </div>
-                <div className="imagenmaster sm:ml-0 ml-10">
+                <div className="imagenmaster sm:ml-0">
                   <div className="laimagen"><img src={DolceAm} className="sm:w-full lg:w-5/6 mb-4 border border-gray-600 rounded-lg"/></div>
                   <div className="laimagen sm:h-auto md:h-auto lg:h-auto"><img src={balance} className="sm:w-full lg:w-2/3 justify-self-end border border-gray-600 rounded-lg"/></div>
                   <div className="text-sm text-gray-700 text-right w-full self-start">**The displayed data is part of a fictional test.</div>
