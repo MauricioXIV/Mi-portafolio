@@ -20,7 +20,7 @@ const Backend = ( { gato, DolceAm, balance } ) => {
                     flujo de efectivo, estado de resultados y balance general.
                     </p>
                     <div className="lg:w-2/3 larguito:w-2/3 md:w-full sm:w-full  flex">
-                    <button className="bg-gray-700 rounded-lg text-gray-400 text-base p-2 flex mb-4"><a href="https://github.com/MauricioXIV/MarketMaster" className="flex"><img src={gato} className="w-12" />Dolce Amore</a></button>
+                    <button className="bg-gray-700 rounded-lg text-gray-400 text-base p-2 flex mb-4"><a href="https://github.com/MauricioXIV/DolceAmoreSecure" className="flex"><img src={gato} className="w-12" />Dolce Amore</a></button>
                     </div>
                     <div className="contenedor-tecnologia">
                     <div className="tecnologia sm:w-1/2 md:w-1/3 lg:w-1/4">HTML Y CSS</div>
@@ -49,7 +49,7 @@ const Backend = ( { gato, DolceAm, balance } ) => {
                     statements such as cash flow, income statement, and balance sheet.
                   </p>
                   <div className="lg:w-2/3 larguito:w-2/3 md:w-full sm:w-full  flex">
-                  <button className="bg-gray-700 rounded-lg text-gray-400 text-base p-2 flex mb-4"><a href="https://github.com/MauricioXIV/MarketMaster" className="flex"><img src={gato} className="w-12" />Dolce Amore</a></button>
+                  <button className="bg-gray-700 rounded-lg text-gray-400 text-base p-2 flex mb-4"><a href="https://github.com/MauricioXIV/DolceAmoreSecure" className="flex"><img src={gato} className="w-12" />Dolce Amore</a></button>
                   </div>
                   <div className="contenedor-tecnologia">
                     <div className="tecnologia sm:w-1/2 md:w-1/3 lg:w-1/4">HTML Y CSS</div>
