@@ -141,7 +141,7 @@ const Pagina = () => {
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
                       </div>
-                      <h1 className="text-xl mb-4">My skills secundarias</h1>
+                      <h1 className="text-xl mb-4">Mis skills secundarias</h1>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
