@@ -26,8 +26,8 @@ const FullStack = ( { gato, inicio } ) => {
                             <div className="tecnologia">React</div>
                             <div className="tecnologia">Django</div>
                             <div className="tecnologia">Python</div>
-                            <div className="tecnologia sm:w-1/2 lg:w-1/5">JavaScript</div>
-                            <div className="tecnologia sm:w-1/2 lg:w-1/5 lg:break-words">PostgreSQL</div>
+                            <div className="tecnologia sm:w-1/2 lg:w-1/3 lg:mx-2">JavaScript</div>
+                            <div className="tecnologia sm:w-1/2 lg:w-1/3 lg:mx-2">PostgreSQL</div>
                           </div>
                         </div>
                         <div className="imagenmaster sm:ml-0 lg:ml-0 sm:justify-center">
@@ -54,8 +54,8 @@ const FullStack = ( { gato, inicio } ) => {
                                     <div className="tecnologia">React</div>
                                     <div className="tecnologia">Django</div>
                                     <div className="tecnologia">Python</div>
-                                    <div className="tecnologia sm:w-1/2 lg:w-1/5">JavaScript</div>
-                                    <div className="tecnologia sm:w-1/2 lg:w-1/5 lg:break-words">PostgreSQL</div>
+                                    <div className="tecnologia sm:w-1/2 lg:w-1/3 lg:mx-2">JavaScript</div>
+                                    <div className="tecnologia sm:w-1/2 lg:w-1/3 lg:mx-2">PostgreSQL</div>
                                   </div>
                                 </div>
                                 <div className="imagenmaster sm:ml-0 lg:ml-0 sm:justify-center">

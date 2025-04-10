@@ -1,34 +1,71 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import elmau from "../images/elmau.jpg";
 import { LanguageContexto } from "../context/LanguageContext";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
 
     const {idioma} = useContext(LanguageContexto)
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
+
         idioma == 1 ? (
-        <div className="navbar">
+        <nav className="navbar">
             <div className="imagen flex justify-end">
             <img className="w-9 h-9 rounded-full" src={elmau} alt="Mauricio"/>
             </div>
             <div className="yo justify"><div className="w-full justify-self-start">Mauricio Rodríguez</div><div className="text-xxs justify-self-start">Web Developer</div></div>
-            <div className="apartado"><a href="#inicio">Inicio</a></div>
-            <div className="apartado"><a href="#proyectos">Proyectos</a></div>
-            <div className="apartado"><a href="#sobremi">Sobre mí</a></div>
-            <div className="apartado"><a href="#skills">Skills</a></div>
-        </div>) : (
-            <div className="navbar">
+    
+            <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-2/5">
+              <li className="w-1/4"><a href="#inicio">Inicio</a></li>
+              <li className="w-1/4"><a href="#proyectos">Proyectos</a></li>
+              <li className="w-1/4"><a href="#sobremi">Sobre mí</a></li>
+              <li className="w-1/4"><a href="#skills">Skills</a></li>
+            </ul>
+      
+            <button className="md:hidden w-1/12" onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+      
+            {isOpen && (
+              <div className="absolute top-16 left-0 w-full bg-[#161612] flex flex-col items-center gap-4 py-4 shadow-md md:hidden z-50 ">
+                <a href="#inicio" onClick={() => setIsOpen(false)}>Inicio</a>
+                <a href="#proyectos" onClick={() => setIsOpen(false)}>Proyectos</a>
+                <a href="#sobremi" onClick={() => setIsOpen(false)}>Sobre mí</a>
+                <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
+              </div>
+            )}
+          </nav>
+        ) : (
+            <nav className="navbar">
             <div className="imagen flex justify-end">
             <img className="w-9 h-9 rounded-full" src={elmau} alt="Mauricio"/>
             </div>
             <div className="yo justify"><div className="w-full justify-self-start">Mauricio Rodríguez</div><div className="text-xxs justify-self-start">Web Developer</div></div>
-            <div className="apartado"><a href="#inicio">Home</a></div>
-            <div className="apartado"><a href="#proyectos">Projects</a></div>
-            <div className="apartado"><a href="#sobremi">About me</a></div>
-            <div className="apartado"><a href="#skills">Skills</a></div>
-        </div>
+    
+            <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-2/5">
+              <li className="w-1/4"><a href="#inicio">Home</a></li>
+              <li className="w-1/4"><a href="#proyectos">Projects</a></li>
+              <li className="w-1/4"><a href="#sobremi">About me</a></li>
+              <li className="w-1/4"><a href="#skills">Skills</a></li>
+            </ul>
+      
+            <button className="md:hidden w-1/12" onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+      
+            {isOpen && (
+              <div className="absolute top-16 left-0 w-full bg-[#161612] flex flex-col items-center gap-4 py-4 shadow-md md:hidden z-50 ">
+                <a href="#inicio" onClick={() => setIsOpen(false)}>Home</a>
+                <a href="#proyectos" onClick={() => setIsOpen(false)}>Projects</a>
+                <a href="#sobremi" onClick={() => setIsOpen(false)}>About me</a>
+                <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
+              </div>
+            )}
+          </nav>
         )
+
     )
 }
 

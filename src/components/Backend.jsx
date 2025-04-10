@@ -13,7 +13,7 @@ const Backend = ( { gato, DolceAm, balance } ) => {
                   <div className="marketmaster">
                 <div className="infomaster">
                   <h1 className="text-xl mb-4">Dolce Amore</h1>
-                    <p className="text-base mb-4">Dolce Amore es una repostería local para la cual elaboré un ERP utilizando tecnologías como FastAPI,                        MongoDB y Python principalmente .</p>
+                    <p className="text-base mb-4">Dolce Amore es una repostería local para la cual elaboré un ERP utilizando tecnologías como FastAPI,                        MongoDB y Python principalmente.</p>
                   <p className="text-base mb-4"> El software cuenta con sistema de autenticación, en él se pueden registrar pedidos e inventarios, cuenta con sistema de cobro y
                     almacena todos los movimientos realizados.</p>
                     <p className="text-base mb-4">Este ERP también tiene su propio sistema contable, capaz de generar automáticamente estados financieros como

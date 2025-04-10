@@ -29,11 +29,14 @@ const Pagina = () => {
             </div>
             <div className="botonlogo">
               <div className="w-2/3 flex xs:justify-center sm:justify-evenly maso:justify-evenly md:justify-evenly larguito:justify-evenly lg:justify-center">
-              <button className="boton p-2 h-auto"><a href="https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-ballesteros-36058a343/">Linkedin -></a></button>
-              <button className="boton p-2 h-auto"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub -></a></button>
+              <button className="boton p-2 h-auto"><a href="https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-ballesteros-36058a343/">Linkedin<span className="whitespace-nowrap">→</span></a></button>
+              <button className="boton p-2 h-auto"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub<span className="whitespace-nowrap">→</span></a></button>
               </div>
-              <div className="w-2/3 flex sm:justify-center my-4">
-              <button className="boton bg-[#161612] border font-semibold flex items-center"><a className="flex items-center w-full" href="/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 larguito:mr-4 lg:mr-0 xl:mr-6">Descargar CV</div></a></button>
+              <div className="w-full flex justify-center my-4">
+              <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] md:max-w-[160px] lg:max-w-[180px]">
+                <a className="flex items-center w-full" href="/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 xs:text-xs md:text-sm">Descargar CV</div>
+                </a>
+              </button>
               </div>
               <div className="imagenes">
                 <div className="aimag"><img src={ReactLogo} /></div>
@@ -68,9 +71,9 @@ const Pagina = () => {
                 className="w-16"
               /></div>
               </div>
-              <div className="w-2/5 flex justify-center mb-4">
-              <button onClick={() => setIdioma(1)} className="boton self-end p-2">Español</button>
-              <button onClick={() => setIdioma(0)} className="boton justify-self-start p-2">English</button>
+              <div className="w-2/3 flex justify-center mb-4">
+              <button onClick={() => setIdioma(1)} className="boton self-end p-2 mr-4">Español</button>
+              <button onClick={() => setIdioma(0)} className="boton justify-self-start p-2 ml-4">English</button>
               </div>
             </div>
             </section>
@@ -94,7 +97,7 @@ const Pagina = () => {
             {proyecto == 2 && (
                 <Backend gato={gato} DolceAm={DolceAm} balance={balance} />)}
             <div className="proyectos pt-10 mb-4">
-              <section className="proyectos pt-12 mb-4 scroll-mt-16" id="sobremi" >
+              <section className="proyectos pt-12 mb-4 scroll-mt-8" id="sobremi" >
               <div className="w-2/3 text-blue-900"><div>Sobre mí</div></div>
               <div className="w-2/3 flex flex-wrap">
                 <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
@@ -122,8 +125,8 @@ const Pagina = () => {
               </div>
               </section>
               <div className="contenedor-marketmaster pt-12">
-              <section className="contenedor-marketmaster pt-12" id="skills" >
-            <div className="w-2/3 mb-4 mt-12"><h3 className="text-lg text-blue-900 font-semibold">Skills</h3></div>
+              <section className="contenedor-marketmaster scroll-mt-8" id="skills" >
+            <div className="w-2/3 mb-4 mt-12"><h3 className="text-lg text-blue-900">Skills</h3></div>
               <div className="marketmaster">
                 <div className="infomaster larguito:w-full lg:w-full">
                   <h1 className="text-xl mb-4">Mis skills principales</h1>
@@ -166,12 +169,15 @@ const Pagina = () => {
                 </div>
                 <div className="botonlogo">
                   <div className="w-2/3 flex xs:justify-center sm:justify-evenly maso:justify-evenly md:justify-evenly larguito:justify-evenly lg:justify-center">
-                  <button className="boton p-2 h-auto"><a href="https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-ballesteros-36058a343/">Linkedin -></a></button>
-                  <button className="boton p-2 h-auto"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub -></a></button>
+                  <button className="boton p-2 h-auto"><a href="https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-ballesteros-36058a343/">Linkedin<span className="whitespace-nowrap">→</span></a></button>
+                  <button className="boton p-2 h-auto"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub<span className="whitespace-nowrap">→</span></a></button>
                   </div>
-                  <div className="w-2/3 flex sm:justify-center my-4">
-                  <button className="boton bg-[#161612] border font-semibold flex items-center"><a className="flex items-center w-full" href="/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 larguito:mr-4 lg:mr-0 xl:mr-6">Download CV</div></a></button>
-                  </div>
+                  <div className="w-full flex justify-center my-4">
+              <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] md:max-w-[160px] lg:max-w-[180px]">
+                <a className="flex items-center w-full" href="/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 larguito:mr-4 lg:mr-0  xs:text-xs md:text-sm">Download CV</div>
+                </a>
+              </button>
+              </div>
                   <div className="imagenes">
                     <div className="aimag"><img src={ReactLogo} /></div>
                     <div className="aimag"><img
@@ -205,9 +211,9 @@ const Pagina = () => {
                     className="w-16"
                   /></div>
                   </div>
-                  <div className="w-2/5 flex justify-center mb-4">
-                  <button onClick={() => setIdioma(1)} className="boton self-end p-2">Español</button>
-                  <button onClick={() => setIdioma(0)} className="boton justify-self-start p-2">English</button>
+                  <div className="w-2/3 flex justify-center mb-4">
+                    <button onClick={() => setIdioma(1)} className="boton self-end p-2 mr-4">Español</button>
+                    <button onClick={() => setIdioma(0)} className="boton justify-self-start p-2 ml-4">English</button>
                   </div>
                 </div>
                 </section>
