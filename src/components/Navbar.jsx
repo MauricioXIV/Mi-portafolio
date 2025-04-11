@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import elmau from "../images/elmau.jpg";
+import mauadmin from "../images/mauprof.jpg"
 import { LanguageContexto } from "../context/LanguageContext";
 import { Menu, X } from "lucide-react";
 
@@ -13,7 +14,7 @@ const Navbar = () => {
         idioma == 1 ? (
         <nav className="navbar">
             <div className="imagen flex justify-end">
-            <img className="w-9 h-9 rounded-full" src={elmau} alt="Mauricio"/>
+            <img className="w-9 h-9 rounded-full" src={mauadmin} alt="Mauricio"/>
             </div>
             <div className="yo justify"><div className="w-full justify-self-start">Mauricio Rodríguez</div><div className="text-xxs justify-self-start">Web Developer</div></div>
     
@@ -40,7 +41,7 @@ const Navbar = () => {
         ) : (
             <nav className="navbar">
             <div className="imagen flex justify-end">
-            <img className="w-9 h-9 rounded-full" src={elmau} alt="Mauricio"/>
+            <img className="w-9 h-9 rounded-full" src={mauadmin} alt="Mauricio"/>
             </div>
             <div className="yo justify"><div className="w-full justify-self-start">Mauricio Rodríguez</div><div className="text-xxs justify-self-start">Web Developer</div></div>
     
