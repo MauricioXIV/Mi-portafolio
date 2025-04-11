@@ -52,7 +52,7 @@ const Navbar = () => {
               <li className="w-1/4"><a href="#skills">Skills</a></li>
             </ul>
       
-            <button className="md:hidden w-1/12" onClick={() => setIsOpen(!isOpen)}>
+            <button className="md:hidden w-[11%]" onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
       
