@@ -10,7 +10,6 @@ import balance from "../images/balance.png";
 import prof from "../images/mauprof.jpg";
 import { LanguageContexto } from "../context/LanguageContext";
 import Todos from "./Todos";
-import FullStack from "./FullStack";
 import Backend from "./Backend";
 import FolEstack from "./FolEstack";
 
@@ -40,7 +39,7 @@ const Pagina = () => {
                 </a>
               </button>
               <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] xs:text-xs md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/harvardcv.pdf" download="CurriculumMauricioHarvard"><FaFilePdf className="ml-2 w-1/6"/><div className="xs:mr-3 w-5/6 xs:text-xs md:text-sm">CV (estilo Harvard)</div>
+                <a className="flex items-center w-full" href="/MauricioHarvardCV.pdf" download="CurriculumMauricioHarvard"><FaFilePdf className="ml-2 w-1/6"/><div className="xs:mr-3 w-5/6 xs:text-xs md:text-sm">CV (estilo Harvard)</div>
                 </a>
               </button>
               </div>
@@ -184,7 +183,7 @@ const Pagina = () => {
                 </a>
               </button>
               <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] xs:text-xs md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/harvardcv.pdf" download="CurriculumMauricioHarvard"><FaFilePdf className="ml-2 w-1/6"/><div className="md:mr-4 larguito:mr-4 w-5/6 xs:text-xs md:text-sm">CV (Harvard)</div>
+                <a className="flex items-center w-full" href="/MauricioHarvardCV.pdf" download="CurriculumMauricioHarvard"><FaFilePdf className="ml-2 w-1/6"/><div className="md:mr-4 larguito:mr-4 w-5/6 xs:text-xs md:text-sm">CV (Harvard)</div>
                 </a>
               </button>
               </div>
