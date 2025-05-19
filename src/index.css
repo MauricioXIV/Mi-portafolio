@@ -91,14 +91,14 @@
 
 @layer components {
   .laimagen {
-    @apply w-full
+    @apply w-full pb-2
   }
 }
 
 @layer components {
   .contenedor-tecnologia {
     @apply w-full flex flex-wrap items-center justify-center bg-[#161612] rounded-lg
-    mb-16
+    mb-10
   }
 }
 @layer components {

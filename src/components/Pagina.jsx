@@ -4,6 +4,7 @@ import ReactLogo from "../assets/react.svg";
 import Html from "../images/html.png";
 import gato from "../images/github.png";
 import inicio from "../images/mercadu.jpg";
+import gears from "../images/gears.png"
 import DolceAm from "../images/DolceAm.jpeg";
 import balance from "../images/balance.png";
 import prof from "../images/mauprof.jpg";
@@ -11,6 +12,7 @@ import { LanguageContexto } from "../context/LanguageContext";
 import Todos from "./Todos";
 import FullStack from "./FullStack";
 import Backend from "./Backend";
+import FolEstack from "./FolEstack";
 
 const Pagina = () => {
 
@@ -95,14 +97,14 @@ const Pagina = () => {
             </div>
             </section>
             {proyecto == 0 && (
-            <Todos gato={gato} inicio={inicio} DolceAm={DolceAm} balance={balance} />)}
+              <Todos gato={gato} inicio={inicio} DolceAm={DolceAm} balance={balance} gears={gears}/>)}
             {proyecto == 1 && (
-                <FullStack gato={gato} inicio={inicio} />)}
+              <FolEstack gato={gato} inicio={inicio} gears={gears} />)}
             {proyecto == 2 && (
-                <Backend gato={gato} DolceAm={DolceAm} balance={balance} />)}
+              <Backend gato={gato} DolceAm={DolceAm} balance={balance} />)}
             <div className="proyectos pt-10 mb-4">
               <section className="proyectos pt-12 mb-4 scroll-mt-8" id="sobremi" >
-              <div className="w-2/3 text-blue-900"><div>Sobre mí</div></div>
+              <div className="w-2/3 text-blue-900 mb-5"><div>Sobre mí</div></div>
               <div className="w-2/3 flex flex-wrap">
                 <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
                 <h1 className="text-xl font-medium mb-4 flex mt-1 w-full">
@@ -239,14 +241,14 @@ const Pagina = () => {
                 </div>
                 </section>
                 {proyecto == 0 && (
-                    <Todos gato={gato} inicio={inicio} DolceAm={DolceAm} balance={balance} />)}
+                  <Todos gato={gato} inicio={inicio} DolceAm={DolceAm} balance={balance} gears={gears}/>)}
                 {proyecto == 1 && (
-                    <FullStack gato={gato} inicio={inicio} />)}
+                  <FolEstack gato={gato} inicio={inicio} gears={gears} />)}
                 {proyecto == 2 && (
-                    <Backend gato={gato} DolceAm={DolceAm} balance={balance} />)}
+                  <Backend gato={gato} DolceAm={DolceAm} balance={balance} />)}
                 <div className="proyectos pt-10 mb-4">
                   <section className="proyectos pt-12 mb-4 scroll-mt-16" id="sobremi" >
-                  <div className="w-2/3 text-blue-900"><div>About me</div></div>
+                  <div className="w-2/3 text-blue-900 mb-5"><div>About me</div></div>
                   <div className="w-2/3 flex flex-wrap">
                     <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
                     <h1 className="text-xl font-medium mb-4 flex mt-1 w-full">

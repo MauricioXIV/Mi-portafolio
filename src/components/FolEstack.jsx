@@ -1,17 +1,15 @@
 import React from "react";
 import FullStack from "./FullStack";
-import Backend from "./Backend";
 import Nexus from "./Nexus";
 
-const Todos = ( { gato, inicio, DolceAm, balance, gears }) => {
+const FolEstack = ( { gato, inicio, gears }) => {
 
     return (
             <>
                 <Nexus gato={gato} gears={gears} />
                 <FullStack gato={gato} inicio={inicio} />
-                <Backend gato={gato} DolceAm={DolceAm} balance={balance} />
             </>
     )
 }
 
-export default Todos
+export default FolEstack

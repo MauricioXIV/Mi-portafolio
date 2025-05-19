@@ -9,7 +9,7 @@ const Backend = ( { gato, DolceAm, balance } ) => {
         idioma == 1 ? (
         <>
             <div className="contenedor-marketmaster">
-                    <div className="w-2/3 mb-4"><h3 className="text-lg text-blue-900 font-semibold">Backend</h3></div>
+                    <div className="w-2/3 mb-2"><h3 className="text-lg text-blue-900 font-semibold">Backend</h3></div>
                   <div className="marketmaster">
                 <div className="infomaster">
                   <h1 className="text-xl mb-4">Dolce Amore</h1>
@@ -38,7 +38,7 @@ const Backend = ( { gato, DolceAm, balance } ) => {
             </div>
         </> ) : (
             <div className="contenedor-marketmaster">
-            <div className="w-2/3 mb-4"><h3 className="text-lg text-blue-900 font-semibold">Backend</h3></div>
+            <div className="w-2/3 mb-2"><h3 className="text-lg text-blue-900 font-semibold">Backend</h3></div>
               <div className="marketmaster">
                 <div className="infomaster">
                   <h1 className="text-xl mb-4">Dolce Amore</h1>
