@@ -45,12 +45,12 @@ const Pagina = () => {
               <button className="boton p-2 h-auto"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub<span className="whitespace-nowrap">→</span></a></button>
               </div>
               <div className="w-full flex justify-center my-4">
-              <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/englishcv.pdf" download="CurriculumMauricioProf"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 md:mr-4 larguito:mr-4 lg:mr-0  xs:text-xs md:text-sm">Curriculum Vitae</div>
+              <button className="boton bg-[#161612] border font-semibold flex items-center sm:max-w-[150px] xs:max-w-[140px] md:max-w-[160px] lg:max-w-[180px]">
+                <a className="flex items-center w-full" href="/englishcv.pdf" download="CurriculumMauricioProf"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">Curriculum Vitae</div>
                 </a>
               </button>
-              <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] xs:text-xs md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/MauricioHarvardCV.pdf" download="CurriculumMauricioHarvard"><FaFilePdf className="ml-2 w-1/6"/><div className="xs:mr-3 w-5/6 xs:text-xs md:text-sm">CV (estilo Harvard)</div>
+              <button className="boton bg-[#161612] border font-semibold flex items-center sm:max-w-[150px] xs:max-w-[140px] xs:text-xs md:max-w-[160px] lg:max-w-[180px]">
+                <a className="flex items-center w-full" href="/MauricioHarvardCV.pdf" download="CurriculumMauricioHarvard"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">CV (estilo Harvard)</div>
                 </a>
               </button>
               </div>
@@ -195,16 +195,16 @@ const Pagina = () => {
                   <button className="boton p-2 h-auto"><a href="https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-ballesteros-36058a343/">Linkedin<span className="whitespace-nowrap">→</span></a></button>
                   <button className="boton p-2 h-auto"><a href="https://github.com/MauricioXIV?tab=overview&from=2025-02-01&to=2025-02-18">GitHub<span className="whitespace-nowrap">→</span></a></button>
                   </div>
-                  <div className="w-full flex justify-center my-4">
-              <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/curriculum.pdf" download="CurriculumMauricio"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 md:mr-4 larguito:mr-4 lg:mr-0  xs:text-xs md:text-sm">Curriculum Vitae</div>
+            <div className="w-full flex justify-center my-4">
+              <button className="boton bg-[#161612] border font-semibold flex items-center sm:max-w-[150px] xs:max-w-[140px] md:max-w-[160px] lg:max-w-[180px]">
+                <a className="flex items-center w-full" href="/englishcv.pdf" download="CurriculumMauricioProf"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">Curriculum Vitae</div>
                 </a>
               </button>
-              <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] xs:text-xs md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/MauricioHarvardCV.pdf" download="CurriculumMauricioHarvard"><FaFilePdf className="ml-2 w-1/6"/><div className="md:mr-4 larguito:mr-4 w-5/6 xs:text-xs md:text-sm">CV (Harvard)</div>
+              <button className="boton bg-[#161612] border font-semibold flex items-center sm:max-w-[150px] xs:max-w-[140px] xs:text-xs md:max-w-[160px] lg:max-w-[180px]">
+                <a className="flex items-center w-full" href="/MauricioHarvardCV.pdf" download="CurriculumMauricioHarvard"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">CV (Harvard style)</div>
                 </a>
               </button>
-              </div>
+            </div>
                   <div className="imagenes">
                     <div className="aimag"><img src={ReactLogo} /></div>
                     <div className="aimag"><img
