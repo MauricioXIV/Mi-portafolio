@@ -12,6 +12,10 @@ import { LanguageContexto } from "../context/LanguageContext";
 import Todos from "./Todos";
 import Backend from "./Backend";
 import FolEstack from "./FolEstack";
+import Zoom from "../components/Zoom";
+import Fade from "../components/Fade"
+import { useInView } from 'react-intersection-observer';
+import Slide from "../components/Slide"
 
 const Pagina = () => {
 
@@ -19,8 +23,14 @@ const Pagina = () => {
 
     const [proyecto, setProyecto] = useState(0)
 
+    const { ref: refInicio, inView: inViewInicio } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  })
+
     return (
         idioma == 1 ? (
+        <Zoom key={idioma}>
         <>
             <section id="inicio">
             <div className="presentation">
@@ -35,7 +45,7 @@ const Pagina = () => {
               </div>
               <div className="w-full flex justify-center my-4">
               <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/englishcv.pdf" download="CurriculumMauricioProf"><FaFilePdf className="ml-2 w-1/6"/><div className=" w-5/6 xs:text-xs md:text-sm">Curriculum Vitae</div>
+                <a className="flex items-center w-full" href="/englishcv.pdf" download="CurriculumMauricioProf"><FaFilePdf className="ml-2 w-1/6"/><div className="w-5/6 md:mr-4 larguito:mr-4 lg:mr-0  xs:text-xs md:text-sm">Curriculum Vitae</div>
                 </a>
               </button>
               <button className="boton bg-[#161612] border font-semibold flex items-center py-1 sm:max-w-[150px] xs:max-w-[140px] xs:text-xs md:max-w-[160px] lg:max-w-[180px]">
@@ -95,12 +105,17 @@ const Pagina = () => {
               </div>
             </div>
             </section>
-            {proyecto == 0 && (
-              <Todos gato={gato} inicio={inicio} DolceAm={DolceAm} balance={balance} gears={gears}/>)}
-            {proyecto == 1 && (
-              <FolEstack gato={gato} inicio={inicio} gears={gears} />)}
-            {proyecto == 2 && (
-              <Backend gato={gato} DolceAm={DolceAm} balance={balance} />)}
+            <div className="bg-stone-950">
+            {proyecto == 0 && (<Fade key={proyecto}>
+              <Todos gato={gato} inicio={inicio} DolceAm={DolceAm} balance={balance} gears={gears}/>
+              </Fade>)}
+            {proyecto == 1 && (<Fade key={proyecto}>
+              <FolEstack gato={gato} inicio={inicio} gears={gears} />
+              </Fade>)}
+            {proyecto == 2 && (<Fade key={proyecto}>
+              <Backend gato={gato} DolceAm={DolceAm} balance={balance} />
+              </Fade>)}
+            </div>
             <div className="proyectos pt-10 mb-4">
               <section className="proyectos pt-12 mb-4 scroll-mt-8" id="sobremi" >
               <div className="w-2/3 text-blue-900 mb-5"><div>Sobre mí</div></div>
@@ -164,7 +179,7 @@ const Pagina = () => {
               </section>
             </div>
             </div>
-            </>) : (
+            </> </Zoom>) : ( <Zoom key={idioma}>
                 <>
                 <section id="inicio">
                 <div className="presentation">
@@ -239,12 +254,17 @@ const Pagina = () => {
                   </div>
                 </div>
                 </section>
-                {proyecto == 0 && (
-                  <Todos gato={gato} inicio={inicio} DolceAm={DolceAm} balance={balance} gears={gears}/>)}
-                {proyecto == 1 && (
-                  <FolEstack gato={gato} inicio={inicio} gears={gears} />)}
-                {proyecto == 2 && (
-                  <Backend gato={gato} DolceAm={DolceAm} balance={balance} />)}
+            <div className="bg-stone-950">
+            {proyecto == 0 && (<Fade key={proyecto}>
+              <Todos gato={gato} inicio={inicio} DolceAm={DolceAm} balance={balance} gears={gears}/>
+              </Fade>)}
+            {proyecto == 1 && (<Fade key={proyecto}>
+              <FolEstack gato={gato} inicio={inicio} gears={gears} />
+              </Fade>)}
+            {proyecto == 2 && (<Fade key={proyecto}>
+              <Backend gato={gato} DolceAm={DolceAm} balance={balance} />
+              </Fade>)}
+            </div>
                 <div className="proyectos pt-10 mb-4">
                   <section className="proyectos pt-12 mb-4 scroll-mt-16" id="sobremi" >
                   <div className="w-2/3 text-blue-900 mb-5"><div>About me</div></div>
@@ -308,6 +328,7 @@ const Pagina = () => {
                 </div>
                 </div>
                 </>
+                </Zoom>
             )
     )
 }

@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import elmau from "../images/elmau.jpg";
 import mauadmin from "../images/mauprof.jpg"
 import { LanguageContexto } from "../context/LanguageContext";
 import { Menu, X } from "lucide-react";
@@ -19,7 +18,7 @@ const Navbar = () => {
             <div className="yo justify"><div className="w-full justify-self-start">Mauricio Rodríguez</div><div className="text-xxs justify-self-start">Web Developer</div></div>
     
             <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-2/5">
-              <li className="w-1/4"><a href="#inicio">Inicio</a></li>
+              <li className="w-1/4 md:pl-4 larguito:pl-0"><a href="#inicio">Inicio</a></li>
               <li className="w-1/4"><a href="#proyectos">Proyectos</a></li>
               <li className="w-1/4"><a href="#sobremi">Sobre mí</a></li>
               <li className="w-1/4"><a href="#skills">Skills</a></li>

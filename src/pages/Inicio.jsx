@@ -4,7 +4,7 @@ import Pagina from "../components/Pagina";
 const Inicio = () => {
 
   return (
-    <Pagina />
+      <Pagina />
   );
 }
 export default Inicio;

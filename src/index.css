@@ -5,6 +5,7 @@
 @layer components {
     .navbar {
       @apply  text-white flex flex-wrap justify-between items-center w-full text-xs fixed top-0 z-50 bg-[#161612] h-[60px]
+      border-b border-stone-800
     }
   }
 
@@ -150,4 +151,8 @@ body {
   .elboton{
     @apply border text-white xs:text-xs sm:text-sm md:text-sm larguito:text-sm lg:text-sm xl:text-sm rounded-lg p-2 font-semibold hover:bg-gray-700 w-full
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
