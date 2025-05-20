@@ -6,7 +6,7 @@ const Fade = ({ children }) => (
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
-      className="w-full h-full top-0 left-0"
+      className="w-full min-h-screen"
     >
       {children}
     </motion.div>

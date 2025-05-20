@@ -31,8 +31,8 @@ const Pagina = () => {
 
     return (
         idioma == 1 ? (
-        <Fade2 key={idioma}>
         <>
+        <Zoom key={idioma}>
             <section id="inicio">
             <div className="presentation">
               <h2>Web Developer</h2>
@@ -93,7 +93,8 @@ const Pagina = () => {
               </div>
             </div>
             </section>
-            <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-16" id="proyectos" >
+          </Zoom>
+            <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-14" id="proyectos" >
             <div className="proyectos">
               <div className="w-2/3 mt-6 text-blue-900 mb-1"><div>Proyectos</div></div>
               <div className="w-2/3"><h1 className="text-xl font-medium mb-4">Mis proyectos</h1></div>
@@ -147,7 +148,7 @@ const Pagina = () => {
               </section>
               <div className="contenedor-marketmaster pt-12">
               <section className="contenedor-marketmaster scroll-mt-8" id="skills" >
-            <div className="w-2/3 mb-4 mt-12"><h3 className="text-lg text-blue-900">Skills</h3></div>
+            <div className="w-2/3 mb-4 mt-12"><div className="text-blue-900">Skills</div></div>
               <div className="marketmaster">
                 <div className="infomaster larguito:w-full lg:w-full">
                   <h1 className="text-xl mb-4">Mis skills principales</h1>
@@ -180,8 +181,9 @@ const Pagina = () => {
               </section>
             </div>
             </div>
-            </> </Fade2>) : ( <Fade2 key={idioma}>
+            </>) : (
                 <>
+              <Zoom key={idioma}>
                 <section id="inicio">
                 <div className="presentation">
                   <h2>Web Developer</h2>
@@ -242,7 +244,8 @@ const Pagina = () => {
                   </div>
                 </div>
                 </section>
-                <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-16" id="proyectos" >
+                </Zoom>
+                <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-14" id="proyectos" >
                 <div className="proyectos">
                   <div className="w-2/3 mt-6 text-blue-900 mb-1"><div>Projects</div></div>
                   <div className="w-2/3"><h1 className="text-xl font-medium mb-4">My projects</h1></div>
@@ -267,7 +270,7 @@ const Pagina = () => {
               </Fade>)}
             </div>
                 <div className="proyectos pt-10 mb-4">
-                  <section className="proyectos pt-12 mb-4 scroll-mt-16" id="sobremi" >
+                  <section className="proyectos pt-12 mb-4 scroll-mt-8" id="sobremi" >
                   <div className="w-2/3 text-blue-900 mb-5"><div>About me</div></div>
                   <div className="w-2/3 flex flex-wrap">
                     <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
@@ -295,7 +298,7 @@ const Pagina = () => {
                   </section>
                   <div className="contenedor-marketmaster pt-12">
                   <section className="contenedor-marketmaster pt-12" id="skills" >
-                <div className="w-2/3 mb-4 mt-12"><h3 className="text-lg text-blue-900 font-semibold">Skills</h3></div>
+                <div className="w-2/3 mb-4 mt-8"><div className="text-blue-900">Skills</div></div>
                   <div className="marketmaster">
                     <div className="infomaster larguito:w-full lg:w-full">
                       <h1 className="text-xl mb-4">My main skills</h1>
@@ -329,7 +332,6 @@ const Pagina = () => {
                 </div>
                 </div>
                 </>
-                </Fade2>
             )
     )
 }
