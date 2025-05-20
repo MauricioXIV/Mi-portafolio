@@ -16,6 +16,7 @@ import Zoom from "../components/Zoom";
 import Fade from "../components/Fade"
 import { useInView } from 'react-intersection-observer';
 import Slide from "../components/Slide"
+import Fade2 from "../components/Fade2";
 
 const Pagina = () => {
 
@@ -30,7 +31,7 @@ const Pagina = () => {
 
     return (
         idioma == 1 ? (
-        <Zoom key={idioma}>
+        <Fade2 key={idioma}>
         <>
             <section id="inicio">
             <div className="presentation">
@@ -179,7 +180,7 @@ const Pagina = () => {
               </section>
             </div>
             </div>
-            </> </Zoom>) : ( <Zoom key={idioma}>
+            </> </Fade2>) : ( <Fade2 key={idioma}>
                 <>
                 <section id="inicio">
                 <div className="presentation">
@@ -328,7 +329,7 @@ const Pagina = () => {
                 </div>
                 </div>
                 </>
-                </Zoom>
+                </Fade2>
             )
     )
 }
