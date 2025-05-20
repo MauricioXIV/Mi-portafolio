@@ -12,15 +12,15 @@ const Backend = ( { gato, DolceAm, balance } ) => {
                     <div className="w-2/3 mb-2"><h3 className="text-lg text-blue-900 font-semibold">Backend</h3></div>
                   <div className="marketmaster">
                 <div className="infomaster">
-                  <h1 className="text-xl mb-4">Dolce Amore</h1>
-                    <p className="text-base mb-4">Dolce Amore es una repostería local para la cual elaboré un ERP utilizando tecnologías como FastAPI,                        MongoDB y Python principalmente.</p>
-                  <p className="text-base mb-4"> El software cuenta con sistema de autenticación, en él se pueden registrar pedidos e inventarios, cuenta con sistema de cobro y
+                  <h1 className="text-xl mb-4 xl:text-2xl">Dolce Amore</h1>
+                    <p className="text-base mb-4 xl:text-lg">Dolce Amore es una repostería local para la cual elaboré un ERP utilizando tecnologías como FastAPI,                        MongoDB y Python principalmente.</p>
+                  <p className="text-base mb-4 xl:text-lg"> El software cuenta con sistema de autenticación, en él se pueden registrar pedidos e inventarios, cuenta con sistema de cobro y
                     almacena todos los movimientos realizados.</p>
-                    <p className="text-base mb-4">Este ERP también tiene su propio sistema contable, capaz de generar automáticamente estados financieros como
+                    <p className="text-base mb-4 xl:text-lg">Este ERP también tiene su propio sistema contable, capaz de generar automáticamente estados financieros como
                     flujo de efectivo, estado de resultados y balance general.
                     </p>
                     <div className="lg:w-2/3 larguito:w-2/3 md:w-full sm:w-full  flex">
-                    <button className="bg-gray-700 rounded-lg text-gray-400 text-base p-2 flex mb-4"><a href="https://github.com/MauricioXIV/DolceAmoreSecure" className="flex"><img src={gato} className="w-12" />Dolce Amore</a></button>
+                    <button className="bg-gray-700 rounded-lg text-gray-400 text-base p-2 flex mb-4 xl:text-lg"><a href="https://github.com/MauricioXIV/DolceAmoreSecure" className="flex"><img src={gato} className="w-12" />Dolce Amore</a></button>
                     </div>
                     <div className="contenedor-tecnologia">
                     <div className="tecnologia sm:w-1/2 md:w-1/3 lg:w-1/4">HTML Y CSS</div>
@@ -41,15 +41,15 @@ const Backend = ( { gato, DolceAm, balance } ) => {
             <div className="w-2/3 mb-2"><h3 className="text-lg text-blue-900 font-semibold">Backend</h3></div>
               <div className="marketmaster">
                 <div className="infomaster">
-                  <h1 className="text-xl mb-4">Dolce Amore</h1>
-                  <p className="text-base mb-4">Dolce Amore is a local bakery for which I developed an ERP using technologies such as FastAPI, MongoDB, and primarily Python.</p>
-                  <p className="text-base mb-4">The software includes an authentication system, allowing the registration of orders and inventories, 
+                  <h1 className="text-xl mb-4 xl:text-2xl">Dolce Amore</h1>
+                  <p className="text-base mb-4 xl:text-lg">Dolce Amore is a local bakery for which I developed an ERP using technologies such as FastAPI, MongoDB, and primarily Python.</p>
+                  <p className="text-base mb-4 xl:text-lg">The software includes an authentication system, allowing the registration of orders and inventories, 
                     a billing system, and it stores all transaction records.</p>
-                  <p className="text-base mb-4">This ERP also has its own accounting system, capable of automatically generating financial 
+                  <p className="text-base mb-4 xl:text-lg">This ERP also has its own accounting system, capable of automatically generating financial 
                     statements such as cash flow, income statement, and balance sheet.
                   </p>
                   <div className="lg:w-2/3 larguito:w-2/3 md:w-full sm:w-full  flex">
-                  <button className="bg-gray-700 rounded-lg text-gray-400 text-base p-2 flex mb-4"><a href="https://github.com/MauricioXIV/DolceAmoreSecure" className="flex"><img src={gato} className="w-12" />Dolce Amore</a></button>
+                  <button className="bg-gray-700 rounded-lg text-gray-400 text-base p-2 flex mb-4 xl:text-lg"><a href="https://github.com/MauricioXIV/DolceAmoreSecure" className="flex"><img src={gato} className="w-12" />Dolce Amore</a></button>
                   </div>
                   <div className="contenedor-tecnologia">
                     <div className="tecnologia sm:w-1/2 md:w-1/3 lg:w-1/4">HTML Y CSS</div>

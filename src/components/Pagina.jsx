@@ -37,7 +37,7 @@ const Pagina = () => {
             <div className="presentation">
               <h2>Web Developer</h2>
               <h1>Mauricio Rodríguez Ballesteros</h1>
-              <p>Full stack React & Django</p>
+              <p className="xl:text-2xl">Full stack React & Django</p>
             </div>
             <div className="botonlogo">
               <div className="w-2/3 flex xs:justify-center sm:justify-evenly maso:justify-evenly md:justify-evenly larguito:justify-evenly lg:justify-center">
@@ -96,13 +96,13 @@ const Pagina = () => {
           </Zoom>
             <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-14" id="proyectos" >
             <div className="proyectos">
-              <div className="w-2/3 mt-6 text-blue-900 mb-1"><div>Proyectos</div></div>
-              <div className="w-2/3"><h1 className="text-xl font-medium mb-4">Mis proyectos</h1></div>
+              <div className="w-2/3 mt-6 text-blue-900 mb-1"><div className="xl:text-lg">Proyectos</div></div>
+              <div className="w-2/3"><h1 className="text-xl font-medium mb-4 xl:text-2xl">Mis proyectos</h1></div>
               <div className="w-2/3 flex rounded-lg text-center">
                 <div className=" xs:w-full sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-16">
-                  <div onClick={() => setProyecto(0)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Todos</div>
-                  <div onClick={() => setProyecto(1)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Full Stack</div>
-                  <div onClick={() => setProyecto(2)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Backend</div>
+                  <div onClick={() => setProyecto(0)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Todos</div>
+                  <div onClick={() => setProyecto(1)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Full Stack</div>
+                  <div onClick={() => setProyecto(2)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Backend</div>
                 </div>
               </div>
             </div>
@@ -120,19 +120,19 @@ const Pagina = () => {
             </div>
             <div className="proyectos pt-10 mb-4">
               <section className="proyectos pt-12 mb-4 scroll-mt-8" id="sobremi" >
-              <div className="w-2/3 text-blue-900 mb-5"><div>Sobre mí</div></div>
+              <div className="w-2/3 text-blue-900 mb-5"><div className="xl:text-lg">Sobre mí</div></div>
               <div className="w-2/3 flex flex-wrap">
                 <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
-                <h1 className="text-xl font-medium mb-4 flex mt-1 w-full">
+                <h1 className="text-xl font-medium mb-4 flex mt-1 w-full xl:text-2xl">
                 Mauricio Rodríguez Ballesteros</h1>
-                    <p className="text-base mb-4 lg:w-full ">Estudiante de <b className="text-gray-200">Administración de Empresas</b>, actualmente curso el
+                    <p className="text-base mb-4 lg:w-full xl:text-lg">Estudiante de <b className="text-gray-200">Administración de Empresas</b>, actualmente curso el
                     octavo y último semestre de la carrera en la Universidad Autónoma de Occidente, ubicada en Mazatlán, Sinaloa, México.</p>
-                    <p className="text-base mb-4 lg:w-full"> Desde 2024 me volví autodidacta en <b className="text-gray-200">ciencias de la computación</b>, encontrando mi pasión
+                    <p className="text-base mb-4 lg:w-full xl:text-lg"> Desde 2024 me volví autodidacta en <b className="text-gray-200">ciencias de la computación</b>, encontrando mi pasión
                     en el desarrollo de aplicaciones en las que pueda plasmar mis conocimientos adquiridos durante mis estudios profesionales.</p>
-                    <p className="text-base mb-4 lg:w-full">Dispongo de una <b className="text-gray-200">certificación en inglés</b> por parte de American English Academy, 
+                    <p className="text-base mb-4 lg:w-full xl:text-lg">Dispongo de una <b className="text-gray-200">certificación en inglés</b> por parte de American English Academy, 
                     así como de una <b className="text-gray-200">certificación en Ciencias Computacionales</b> avalada por la Universidad de Harvard.
                     </p>
-                    <p className="text-base mb-4 lg:w-full">Tengo 23 años y soy originario de Mazatlán. Mis principales pasatiempos son 
+                    <p className="text-base mb-4 lg:w-full xl:text-lg">Tengo 23 años y soy originario de Mazatlán. Mis principales pasatiempos son 
                     la lectura, el ejercicio y la música.
                     </p>
                 </div>
@@ -140,18 +140,18 @@ const Pagina = () => {
                   <div className="laimagen"><img src={prof} alt="Mauricio" className="sm:w-1/2 md:w-1/2 larguito:w-2/3 lg:w-2/3 mb-4 border border-gray-600 justify-self-center rounded-lg"/></div>
                   <div className="w-full justify-evenly flex flex-wrap">
                     <p className="w-full text-center mb-2">Descargar:</p>
-                    <div className="w-1/3"><a href="/ingles.pdf" download="CertificadoInglesMauricio"><button className="elboton">Certificado Inglés</button></a></div>
-                    <div className="w-1/3"><a href="/CertificadoCS50x.pdf" download="CertificadoCS50xMauricio"><button className="elboton">Certificado Ciencias Comp.</button></a></div>
+                    <div className="w-2/5"><a href="/ingles.pdf" download="CertificadoInglesMauricio"><button className="elboton">Certificado Inglés</button></a></div>
+                    <div className="w-2/5"><a href="/CertificadoCS50x.pdf" download="CertificadoCS50xMauricio"><button className="elboton">Certificado Ciencias Comp.</button></a></div>
                   </div>
                 </div>
               </div>
               </section>
               <div className="contenedor-marketmaster pt-12">
               <section className="contenedor-marketmaster scroll-mt-8" id="skills" >
-            <div className="w-2/3 mb-4 mt-12"><div className="text-blue-900">Skills</div></div>
+            <div className="w-2/3 mb-4 mt-12"><div className="text-blue-900 xl:text-lg">Skills</div></div>
               <div className="marketmaster">
                 <div className="infomaster larguito:w-full lg:w-full">
-                  <h1 className="text-xl mb-4">Mis skills principales</h1>
+                  <h1 className="text-xl mb-4 xl:text-2xl">Mis skills principales</h1>
                   <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">React</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django</div>
@@ -163,14 +163,14 @@ const Pagina = () => {
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
                       </div>
-                      <h1 className="text-xl mb-4">Mis skills secundarias</h1>
+                      <h1 className="text-xl mb-4 xl:text-2xl">Mis skills secundarias</h1>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">SQLite</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">MongoDB</div>
                       </div>
-                      <h1 className="text-xl mb-4">Poseo conocimiento en</h1>
+                      <h1 className="text-xl mb-4 xl:text-2xl">Poseo conocimiento en</h1>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">C</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">Algoritmos</div>
@@ -188,7 +188,7 @@ const Pagina = () => {
                 <div className="presentation">
                   <h2>Web Developer</h2>
                   <h1>Mauricio Rodríguez Ballesteros</h1>
-                  <p>Full stack React & Django</p>
+                  <p className="xl:text-2xl">Full stack React & Django</p>
                 </div>
                 <div className="botonlogo">
                   <div className="w-2/3 flex xs:justify-center sm:justify-evenly maso:justify-evenly md:justify-evenly larguito:justify-evenly lg:justify-center">
@@ -247,13 +247,13 @@ const Pagina = () => {
                 </Zoom>
                 <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-14" id="proyectos" >
                 <div className="proyectos">
-                  <div className="w-2/3 mt-6 text-blue-900 mb-1"><div>Projects</div></div>
-                  <div className="w-2/3"><h1 className="text-xl font-medium mb-4">My projects</h1></div>
+                  <div className="w-2/3 mt-6 text-blue-900 mb-1"><div className="xl:text-lg">Projects</div></div>
+                  <div className="w-2/3"><h1 className="text-xl font-medium mb-4 xl:text-2xl">My projects</h1></div>
                   <div className="w-2/3 flex rounded-lg text-center">
                     <div className="xs:w-full sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-16">
-                      <div onClick={() => setProyecto(0)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">All</div>
-                      <div onClick={() => setProyecto(1)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Full Stack</div>
-                      <div onClick={() => setProyecto(2)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer">Backend</div>
+                      <div onClick={() => setProyecto(0)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">All</div>
+                      <div onClick={() => setProyecto(1)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Full Stack</div>
+                      <div onClick={() => setProyecto(2)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Backend</div>
                     </div>
                   </div>
                 </div>
@@ -271,19 +271,19 @@ const Pagina = () => {
             </div>
                 <div className="proyectos pt-10 mb-4">
                   <section className="proyectos pt-12 mb-4 scroll-mt-8" id="sobremi" >
-                  <div className="w-2/3 text-blue-900 mb-5"><div>About me</div></div>
+                  <div className="w-2/3 text-blue-900 mb-5"><div className="xl:text-lg">About me</div></div>
                   <div className="w-2/3 flex flex-wrap">
                     <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
-                    <h1 className="text-xl font-medium mb-4 flex mt-1 w-full">
+                    <h1 className="text-xl font-medium mb-4 flex mt-1 w-full xl:text-2xl">
                     Mauricio Rodríguez Ballesteros</h1>
-                        <p className="text-base mb-4 lg:w-full "><b className="text-gray-200">Business Administration </b>student, currently in my eighth and final semester at
+                        <p className="text-base mb-4 lg:w-full xl:text-lg"><b className="text-gray-200">Business Administration </b>student, currently in my eighth and final semester at
                         Universidad Autónoma de Occidente, located in Mazatlán, Sinaloa, Mexico.</p>
-                        <p className="text-base mb-4 lg:w-full"> Since 2024 I have become self-taught in <b className="text-gray-200">Computer Science</b>, discovering my passion for developing applications 
+                        <p className="text-base mb-4 lg:w-full xl:text-lg"> Since 2024 I have become self-taught in <b className="text-gray-200">Computer Science</b>, discovering my passion for developing applications 
                         where I can apply the knowledge I have acquired during my professional studies.</p>
-                        <p className="text-base mb-4 lg:w-full">I hold an <b className="text-gray-200">English certification </b> from the American English Academy, 
+                        <p className="text-base mb-4 lg:w-full xl:text-lg">I hold an <b className="text-gray-200">English certification </b> from the American English Academy, 
                         as well as a <b className="text-gray-200">Computer Science certification</b> endorsed by Harvard University.
                         </p>
-                        <p className="text-base mb-4 lg:w-full">I am 23 years old and originally from Mazatlán. My main hobbies are reading, exercising, and listening music.
+                        <p className="text-base mb-4 lg:w-full xl:text-lg">I am 23 years old and originally from Mazatlán. My main hobbies are reading, exercising, and listening music.
                         </p>
                     </div>
                     <div className="imagenmaster sm:ml-0 items-end lg:w-1/2">
@@ -298,10 +298,10 @@ const Pagina = () => {
                   </section>
                   <div className="contenedor-marketmaster pt-12">
                   <section className="contenedor-marketmaster pt-12" id="skills" >
-                <div className="w-2/3 mb-4 mt-8"><div className="text-blue-900">Skills</div></div>
+                <div className="w-2/3 mb-4 mt-8"><div className="text-blue-900 xl:text-lg">Skills</div></div>
                   <div className="marketmaster">
                     <div className="infomaster larguito:w-full lg:w-full">
-                      <h1 className="text-xl mb-4">My main skills</h1>
+                      <h1 className="text-xl mb-4 xl:text-2xl">My main skills</h1>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">React</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django</div>
@@ -313,14 +313,14 @@ const Pagina = () => {
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
                       </div>
-                      <h1 className="text-xl mb-4">My secondary skills</h1>
+                      <h1 className="text-xl mb-4 xl:text-2xl">My secondary skills</h1>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">SQLite</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">MongoDB</div>
                       </div>
-                      <h1 className="text-xl mb-4">I have knowledge in</h1>
+                      <h1 className="text-xl mb-4 xl:text-2xl">I have knowledge in</h1>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">C</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">Algorythms</div>
