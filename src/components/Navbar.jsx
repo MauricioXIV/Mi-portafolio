@@ -2,6 +2,9 @@ import React, { useContext, useState } from "react";
 import mauadmin from "../images/mauprof.jpg"
 import { LanguageContexto } from "../context/LanguageContext";
 import { Menu, X } from "lucide-react";
+import Slide from "./Slide";
+import Fade from "./Fade";
+import Zoom from "../components/Zoom";
 
 const Navbar = () => {
 
@@ -28,14 +31,16 @@ const Navbar = () => {
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
       
-            {isOpen && (
-              <div className="absolute top-16 left-0 w-full bg-[#161612] flex flex-col items-center gap-4 py-4 shadow-md md:hidden z-50 ">
+            {isOpen ? (
+              <Slide key={isOpen}>
+              <div className="bg-[#161612] flex flex-col items-center gap-4 py-4 shadow-md md:hidden">
                 <a href="#inicio" onClick={() => setIsOpen(false)}>Inicio</a>
                 <a href="#proyectos" onClick={() => setIsOpen(false)}>Proyectos</a>
                 <a href="#sobremi" onClick={() => setIsOpen(false)}>Sobre mí</a>
                 <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
               </div>
-            )}
+              </Slide>
+            ) : null}
           </nav>
         ) : (
             <nav className="navbar">
@@ -55,14 +60,16 @@ const Navbar = () => {
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
       
-            {isOpen && (
-              <div className="absolute top-16 left-0 w-full bg-[#161612] flex flex-col items-center gap-4 py-4 shadow-md md:hidden z-50 ">
+            {isOpen ? (
+              <Slide key={isOpen}>
+              <div className="bg-[#161612] flex flex-col items-center gap-4 py-4 shadow-md md:hidden">
                 <a href="#inicio" onClick={() => setIsOpen(false)}>Home</a>
                 <a href="#proyectos" onClick={() => setIsOpen(false)}>Projects</a>
                 <a href="#sobremi" onClick={() => setIsOpen(false)}>About me</a>
                 <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
               </div>
-            )}
+              </Slide>
+            ) : null}
           </nav>
         )
 
