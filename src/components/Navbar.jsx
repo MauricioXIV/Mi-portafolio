@@ -12,19 +12,19 @@ const Navbar = () => {
 
         idioma == 1 ? (
         <nav className="navbar">
-            <div className="imagen flex justify-end">
+            <div className="imagen flex justify-center peque:justify-end peque:pr-2 esmol:pr-1 sm:pr-2">
             <img className="xs:w-9 xs:h-9 xl:w-11 xl:h-11 rounded-full object-cover" src={mauadmin} alt="Mauricio"/>
             </div>
             <div className="yo justify"><div className="w-full justify-self-start xl:text-base">Mauricio Rodríguez</div><div className="text-xxs justify-self-start xl:text-xs">Web Developer</div></div>
     
-            <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-2/5 xl:text-base">
+            <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-5/12 xl:text-base">
               <li className="w-1/4 md:pl-4 larguito:pl-0"><a href="#inicio">Inicio</a></li>
               <li className="w-1/4"><a href="#proyectos">Proyectos</a></li>
               <li className="w-1/4"><a href="#sobremi">Sobre mí</a></li>
               <li className="w-1/4"><a href="#skills">Skills</a></li>
             </ul>
       
-            <button className="md:hidden w-[11%]" onClick={() => setIsOpen(!isOpen)}>
+            <button className="md:hidden w-1/12" onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
       
@@ -39,19 +39,19 @@ const Navbar = () => {
           </nav>
         ) : (
             <nav className="navbar">
-            <div className="imagen flex justify-end">
+            <div className="imagen flex justify-center peque:justify-end peque:pr-2 esmol:pr-1 sm:pr-2">
             <img className="xs:w-9 xs:h-9 xl:w-11 xl:h-11 rounded-full object-cover" src={mauadmin} alt="Mauricio"/>
             </div>
             <div className="yo justify"><div className="w-full justify-self-start xl:text-base">Mauricio Rodríguez</div><div className="text-xxs justify-self-start xl:text-xs">Web Developer</div></div>
     
-            <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-2/5 xl:text-base">
+            <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-5/12 xl:text-base">
               <li className="w-1/4"><a href="#inicio">Home</a></li>
               <li className="w-1/4"><a href="#proyectos">Projects</a></li>
               <li className="w-1/4"><a href="#sobremi">About me</a></li>
               <li className="w-1/4"><a href="#skills">Skills</a></li>
             </ul>
       
-            <button className="md:hidden w-[11%]" onClick={() => setIsOpen(!isOpen)}>
+            <button className="md:hidden w-1/12" onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
       

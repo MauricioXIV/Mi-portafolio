@@ -15,6 +15,8 @@ export default {
     screens: {
       'xxs': '300px',
       'xs': '320px',
+      'peque':'425px',
+      'esmol':'530px',
       'sm': '640px',
       'maso': '670px',
       'md': '768px',
