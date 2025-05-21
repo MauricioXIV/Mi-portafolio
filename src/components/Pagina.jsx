@@ -127,13 +127,14 @@ const Pagina = () => {
                 Mauricio Rodríguez Ballesteros</div>
                     <p className="text-base mb-4 lg:w-full xl:text-lg">Estudiante de <b className="text-gray-200">Administración de Empresas</b>, actualmente curso el
                     octavo y último semestre de la carrera en la Universidad Autónoma de Occidente, ubicada en Mazatlán, Sinaloa, México.</p>
-                    <p className="text-base mb-4 lg:w-full xl:text-lg"> Desde 2024 me volví autodidacta en <b className="text-gray-200">ciencias de la computación</b>, encontrando mi pasión
-                    en el desarrollo de aplicaciones en las que pueda plasmar mis conocimientos adquiridos durante mis estudios profesionales.</p>
-                    <p className="text-base mb-4 lg:w-full xl:text-lg">Dispongo de una <b className="text-gray-200">certificación en inglés</b> por parte de American English Academy, 
-                    así como de una <b className="text-gray-200">certificación en Ciencias Computacionales</b> avalada por la Universidad de Harvard.
+                    <p className="text-base mb-4 lg:w-full xl:text-lg"> A lo largo de mi formación universitaria, descubrí una fuerte afinidad por el análisis, la resolución de problemas y la innovación, 
+                      lo que me llevó a explorar el mundo de la tecnología. En 2024, comencé a formarme de manera autodidacta en <b className="text-gray-200">ciencias de la computación</b>, encontrando en el desarrollo web una vía ideal para combinar mis habilidades 
+                      administrativas con soluciones tecnológicas que generen impacto real.</p>
+                    <p className="text-base mb-4 lg:w-full xl:text-lg">Cuento con una <b className="text-gray-200">certificación en inglés</b> otorgada por American English Academy, 
+                    y una <b className="text-gray-200">certificación en Ciencias Computacionales</b> avalada por la Universidad de Harvard, lo cual respalda mi compromiso con el aprendizaje continuo y la excelencia académica.
                     </p>
-                    <p className="text-base mb-4 lg:w-full xl:text-lg">Tengo 23 años y soy originario de Mazatlán. Mis principales pasatiempos son 
-                    la lectura, el ejercicio y la música.
+                    <p className="text-base mb-4 lg:w-full xl:text-lg">Tengo 23 años y soy originario de Mazatlán. En mi tiempo libre disfruto de la lectura, 
+                      el ejercicio y la música, actividades que complementan mi desarrollo personal y profesional.
                     </p>
                 </div>
                 <div className="imagenmaster sm:ml-0 items-end lg:w-1/2">
@@ -276,14 +277,16 @@ const Pagina = () => {
                     <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
                     <div className="text-xl mb-4 flex mt-1 w-full xl:text-2xl font-semibold text-gray-200">
                     Mauricio Rodríguez Ballesteros</div>
-                        <p className="text-base mb-4 lg:w-full xl:text-lg"><b className="text-gray-200">Business Administration </b>student, currently in my eighth and final semester at
-                        Universidad Autónoma de Occidente, located in Mazatlán, Sinaloa, Mexico.</p>
-                        <p className="text-base mb-4 lg:w-full xl:text-lg"> Since 2024 I have become self-taught in <b className="text-gray-200">Computer Science</b>, discovering my passion for developing applications 
-                        where I can apply the knowledge I have acquired during my professional studies.</p>
-                        <p className="text-base mb-4 lg:w-full xl:text-lg">I hold an <b className="text-gray-200">English certification </b> from the American English Academy, 
-                        as well as a <b className="text-gray-200">Computer Science certification</b> endorsed by Harvard University.
+                        <p className="text-base mb-4 lg:w-full xl:text-lg">I am a <b className="text-gray-200">Business Administration </b>student, currently in the eighth and final semester of my degree at the 
+                        Universidad Autonoma de Occidente, located in Mazatlan, Sinaloa, Mexico.</p>
+                        <p className="text-base mb-4 lg:w-full xl:text-lg"> Throughout my academic journey, I discovered a strong affinity for analysis, problem-solving, and innovation, 
+                          which led me to explore the world of technology. In 2024, I began self-studying <b className="text-gray-200">Computer Science</b>,  finding in web development the ideal way to merge 
+                          my administrative skills with technological solutions that create real impact.</p>
+                        <p className="text-base mb-4 lg:w-full xl:text-lg">I hold an <b className="text-gray-200">English certification </b> from the American English Academy 
+                        and a <b className="text-gray-200">Computer Science certification</b> endorsed by Harvard University, which reflect my commitment to continuous learning and academic excellence.
                         </p>
-                        <p className="text-base mb-4 lg:w-full xl:text-lg">I am 23 years old and originally from Mazatlán. My main hobbies are reading, exercising, and listening music.
+                        <p className="text-base mb-4 lg:w-full xl:text-lg">I am 23 years old and originally from Mazatlán. In my free time, I enjoy reading, working out, 
+                          and listening to music, activities that complement my personal and professional growth.
                         </p>
                     </div>
                     <div className="imagenmaster sm:ml-0 items-end lg:w-1/2">
