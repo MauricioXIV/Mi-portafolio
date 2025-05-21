@@ -183,8 +183,8 @@ const Pagina = () => {
             </div>
             </>) : (
                 <>
-              <Zoom key={idioma}>
-                <section id="inicio">
+                <section id="inicio" className="min-h-screen h-[100dvh] overflow-hidden">
+                <Zoom key={idioma}>
                 <div className="presentation">
                   <h2>Web Developer</h2>
                   <h1>Mauricio Rodríguez Ballesteros</h1>
@@ -243,8 +243,8 @@ const Pagina = () => {
                     <button onClick={() => setIdioma(0)} className="boton justify-self-start p-2 ml-4">English</button>
                   </div>
                 </div>
-                </section>
                 </Zoom>
+                </section>
                 <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-14" id="proyectos" >
                 <div className="proyectos">
                   <div className="w-2/3 mt-6 text-blue-900 mb-1"><div className="xl:text-lg">Projects</div></div>
