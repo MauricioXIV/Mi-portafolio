@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="imagen flex justify-center peque:justify-end peque:pr-2 esmol:pr-1 sm:pr-2">
             <img className="xs:w-9 xs:h-9 xl:w-11 xl:h-11 rounded-full object-cover" src={mauadmin} alt="Mauricio"/>
             </div>
-            <div className="yo justify"><div className="w-full justify-self-start xl:text-base">Mauricio Rodríguez</div><div className="text-xxs justify-self-start xl:text-xs">Web Developer</div></div>
+            <div className="yo justify xl:pb-1"><div className="w-full justify-self-start xl:text-base">Mauricio Rodríguez</div><div className="text-xxs justify-self-start xl:text-xs">Web Developer</div></div>
     
             <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-5/12 xl:text-base">
               <li className="w-1/4 md:pl-4 larguito:pl-0"><a href="#inicio">Inicio</a></li>
@@ -42,7 +42,7 @@ const Navbar = () => {
             <div className="imagen flex justify-center peque:justify-end peque:pr-2 esmol:pr-1 sm:pr-2">
             <img className="xs:w-9 xs:h-9 xl:w-11 xl:h-11 rounded-full object-cover" src={mauadmin} alt="Mauricio"/>
             </div>
-            <div className="yo justify"><div className="w-full justify-self-start xl:text-base">Mauricio Rodríguez</div><div className="text-xxs justify-self-start xl:text-xs">Web Developer</div></div>
+            <div className="yo justify xl:pb-1"><div className="w-full justify-self-start xl:text-base">Mauricio Rodríguez</div><div className="text-xxs justify-self-start xl:text-xs">Web Developer</div></div>
     
             <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-5/12 xl:text-base">
               <li className="w-1/4"><a href="#inicio">Home</a></li>

@@ -12,7 +12,7 @@ const Nexus = ( { gato, gears } ) => {
             <div className="w-2/3 mb-2"><h3 className="text-lg text-blue-900 font-semibold">Full Stack</h3></div>
                 <div className="marketmaster">
                 <div className="infomaster">
-                    <h1 className="text-xl mb-4 xl:text-2xl">Nexus</h1>
+                    <div className="text-xl mb-4 xl:text-2xl text-gray-200 font-semibold">Nexus</div>
                     <p className="text-base mb-4 xl:text-lg">Nexus es una red social inspirada en el universo del videojuego Gears of War.</p>
                     <p className="text-base mb-4 xl:text-lg"> En ella puedes iniciar sesión mediante tu cuenta Google, relacionarte con las demás personas mediante el modelo Seguidor y Seguido, realizar publicaciones, recibir notificaciones y 
                         enviar mensajes en tiempo real, además de contar con un diseño y funciones características de Gears of war.</p>
@@ -39,7 +39,7 @@ const Nexus = ( { gato, gears } ) => {
                             <div className="w-2/3 mb-2"><h3 className="text-lg text-blue-900 font-semibold">Full Stack</h3></div>
                               <div className="marketmaster">
                                 <div className="infomaster">
-                                  <h1 className="text-xl mb-4 xl:text-2xl">Nexus</h1>
+                                  <div className="text-xl mb-4 xl:text-2xl text-gray-200 font-semibold">Nexus</div>
                                   <p className="text-base mb-4 xl:text-lg">Nexus is a social network inspired by the Gears of War universe.</p>
                                   <p className="text-base mb-4 xl:text-lg"> It allows users to log in with their Google accounts, connect with others through a follower/following model, create posts, receive notifications, and send real-time messages. The platform features a design and 
                                     functionalities that reflect the distinctive aesthetic and atmosphere of Gears of War.</p>

@@ -12,7 +12,7 @@ const FullStack = ( { gato, inicio } ) => {
             <div className="w-2/3 mb-2"><h3 className="text-lg text-blue-900 font-semibold">Full Stack</h3></div>
                 <div className="marketmaster">
                 <div className="infomaster">
-                    <h1 className="text-xl mb-4 xl:text-2xl">MarketMaster</h1>
+                    <div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200">MarketMaster</div>
                     <p className="text-base mb-4 xl:text-lg">MarketMaster es una aplicación que simula la interacción
                     entre un cliente y una tienda en línea.</p>
                     <p className="text-base mb-4 xl:text-lg"> El cliente puede agregar productos a su carrito, ver el total de su compra y realizar el pago.
@@ -41,7 +41,7 @@ const FullStack = ( { gato, inicio } ) => {
                             <div className="w-2/3 mb-2"><h3 className="text-lg text-blue-900 font-semibold">Full Stack</h3></div>
                               <div className="marketmaster">
                                 <div className="infomaster">
-                                  <h1 className="text-xl mb-4 xl:text-2xl">MarketMaster</h1>
+                                  <div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200">MarketMaster</div>
                                   <p className="text-base mb-4 xl:text-lg">MarketMaster is an application that simulates the interaction between a customer and an online store.</p>
                                   <p className="text-base mb-4 xl:text-lg"> Customers can add products to their cart, view the total of their purchase, and complete the payment. It features an authentication system,
                                      a personalized profile, and a virtual currency to make purchases.</p>

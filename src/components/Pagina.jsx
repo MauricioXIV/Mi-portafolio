@@ -97,9 +97,9 @@ const Pagina = () => {
             <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-14" id="proyectos" >
             <div className="proyectos">
               <div className="w-2/3 mt-6 text-blue-900 mb-1"><div className="xl:text-lg">Proyectos</div></div>
-              <div className="w-2/3"><h1 className="text-xl font-medium mb-4 xl:text-2xl">Mis proyectos</h1></div>
+              <div className="w-2/3"><div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200">Mis proyectos</div></div>
               <div className="w-2/3 flex rounded-lg text-center">
-                <div className=" xs:w-full sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-16">
+                <div className=" xs:w-full sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-14">
                   <div onClick={() => setProyecto(0)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Todos</div>
                   <div onClick={() => setProyecto(1)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Full Stack</div>
                   <div onClick={() => setProyecto(2)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Backend</div>
@@ -123,8 +123,8 @@ const Pagina = () => {
               <div className="w-2/3 text-blue-900 mb-5"><div className="xl:text-lg">Sobre mí</div></div>
               <div className="w-2/3 flex flex-wrap">
                 <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
-                <h1 className="text-xl font-medium mb-4 flex mt-1 w-full xl:text-2xl">
-                Mauricio Rodríguez Ballesteros</h1>
+                <div className="text-xl mb-4 flex w-full xl:text-2xl font-semibold text-gray-200">
+                Mauricio Rodríguez Ballesteros</div>
                     <p className="text-base mb-4 lg:w-full xl:text-lg">Estudiante de <b className="text-gray-200">Administración de Empresas</b>, actualmente curso el
                     octavo y último semestre de la carrera en la Universidad Autónoma de Occidente, ubicada en Mazatlán, Sinaloa, México.</p>
                     <p className="text-base mb-4 lg:w-full xl:text-lg"> Desde 2024 me volví autodidacta en <b className="text-gray-200">ciencias de la computación</b>, encontrando mi pasión
@@ -151,7 +151,7 @@ const Pagina = () => {
             <div className="w-2/3 mb-4 mt-12"><div className="text-blue-900 xl:text-lg">Skills</div></div>
               <div className="marketmaster">
                 <div className="infomaster larguito:w-full lg:w-full">
-                  <h1 className="text-xl mb-4 xl:text-2xl">Mis skills principales</h1>
+                  <div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200">Mis skills principales</div>
                   <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">React</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django</div>
@@ -163,14 +163,14 @@ const Pagina = () => {
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
                       </div>
-                      <h1 className="text-xl mb-4 xl:text-2xl">Mis skills secundarias</h1>
+                      <div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200">Mis skills secundarias</div>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">SQLite</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">MongoDB</div>
                       </div>
-                      <h1 className="text-xl mb-4 xl:text-2xl">Poseo conocimiento en</h1>
+                      <div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200">Poseo conocimiento en</div>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">C</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">Algoritmos</div>
@@ -248,9 +248,9 @@ const Pagina = () => {
                 <section className="w-full flex flex-wrap justify-center items-center bg-stone-950 scroll-mt-14" id="proyectos" >
                 <div className="proyectos">
                   <div className="w-2/3 mt-6 text-blue-900 mb-1"><div className="xl:text-lg">Projects</div></div>
-                  <div className="w-2/3"><h1 className="text-xl font-medium mb-4 xl:text-2xl">My projects</h1></div>
+                  <div className="w-2/3"><div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200 ">My projects</div></div>
                   <div className="w-2/3 flex rounded-lg text-center">
-                    <div className="xs:w-full sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-16">
+                    <div className="xs:w-full sm:w-2/3 md:w-1/2 lg:w-1/3 flex bg-gray-600 rounded-xl h-10 items-center mb-14">
                       <div onClick={() => setProyecto(0)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">All</div>
                       <div onClick={() => setProyecto(1)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Full Stack</div>
                       <div onClick={() => setProyecto(2)} className="w-1/3 text-gray-400 text-sm hover:text-gray-200 hover:cursor-pointer xl:text-base">Backend</div>
@@ -274,8 +274,8 @@ const Pagina = () => {
                   <div className="w-2/3 text-blue-900 mb-5"><div className="xl:text-lg">About me</div></div>
                   <div className="w-2/3 flex flex-wrap">
                     <div className="flex flex-wrap larguito:w-1/2 lg:w-1/2 lg:h-5/6">
-                    <h1 className="text-xl font-medium mb-4 flex mt-1 w-full xl:text-2xl">
-                    Mauricio Rodríguez Ballesteros</h1>
+                    <div className="text-xl mb-4 flex mt-1 w-full xl:text-2xl font-semibold text-gray-200">
+                    Mauricio Rodríguez Ballesteros</div>
                         <p className="text-base mb-4 lg:w-full xl:text-lg"><b className="text-gray-200">Business Administration </b>student, currently in my eighth and final semester at
                         Universidad Autónoma de Occidente, located in Mazatlán, Sinaloa, Mexico.</p>
                         <p className="text-base mb-4 lg:w-full xl:text-lg"> Since 2024 I have become self-taught in <b className="text-gray-200">Computer Science</b>, discovering my passion for developing applications 
@@ -301,7 +301,7 @@ const Pagina = () => {
                 <div className="w-2/3 mb-4 mt-8"><div className="text-blue-900 xl:text-lg">Skills</div></div>
                   <div className="marketmaster">
                     <div className="infomaster larguito:w-full lg:w-full">
-                      <h1 className="text-xl mb-4 xl:text-2xl">My main skills</h1>
+                      <div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200">My main skills</div>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">React</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Django</div>
@@ -313,14 +313,14 @@ const Pagina = () => {
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Tailwindcss</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/4 lg:w-1/4">Git</div>
                       </div>
-                      <h1 className="text-xl mb-4 xl:text-2xl">My secondary skills</h1>
+                      <div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200">My secondary skills</div>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">FastAPI</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">Flask</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">SQLite</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/2 md:w-1/3 larguito:w-1/4 lg:w-1/4">MongoDB</div>
                       </div>
-                      <h1 className="text-xl mb-4 xl:text-2xl">I have knowledge in</h1>
+                      <div className="text-xl mb-4 xl:text-2xl font-semibold text-gray-200">I have knowledge in</div>
                       <div className="contenedor-tecnologiadebajo">
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">C</div>
                         <div className="tecnologiadebajo xs:w-1/2 sm:w-1/3 md:w-1/3 larguito:w-1/3 largo:w-1/3 xl:w-1/3">Algorythms</div>
