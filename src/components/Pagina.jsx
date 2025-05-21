@@ -32,7 +32,7 @@ const Pagina = () => {
     return (
         idioma == 1 ? (
         <>
-            <section id="inicio" className="h-[100dvh] overflow-x-hidden border-2 border-red-600">
+            <section id="inicio" className="h-full overflow-x-hidden mb-32">
             <Zoom key={idioma}>
             <div className="presentation">
               <h2>Web Developer</h2>
@@ -183,7 +183,7 @@ const Pagina = () => {
             </div>
             </>) : (
                 <>
-                <section id="inicio" className="min-h-screen h-[100dvh] overflow-hidden">
+                <section id="inicio" className="h-full overflow-x-hidden mb-32">
                 <Zoom key={idioma}>
                 <div className="presentation">
                   <h2>Web Developer</h2>
