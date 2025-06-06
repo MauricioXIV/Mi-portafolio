@@ -21,10 +21,10 @@ const Navbar = () => {
             <div className="yo justify xl:pb-1"><div className="w-full justify-self-start xl:text-base">Mauricio Rodríguez</div><div className="text-xxs justify-self-start xl:text-xs">Web Developer</div></div>
     
             <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-5/12 xl:text-base">
-              <li className="w-1/4 md:pl-4 larguito:pl-0"><a href="#inicio">Inicio</a></li>
-              <li className="w-1/4"><a href="#proyectos">Proyectos</a></li>
-              <li className="w-1/4"><a href="#sobremi">Sobre mí</a></li>
-              <li className="w-1/4"><a href="#skills">Skills</a></li>
+              <li className="w-1/4 md:pl-4 larguito:pl-0"><a className="hover:text-gray-400" href="#inicio">Inicio</a></li>
+              <li className="w-1/4"><a className="hover:text-gray-400" href="#proyectos">Proyectos</a></li>
+              <li className="w-1/4"><a className="hover:text-gray-400" href="#sobremi">Sobre mí</a></li>
+              <li className="w-1/4"><a className="hover:text-gray-400" href="#skills">Skills</a></li>
             </ul>
       
             <button className="md:hidden w-1/12" onClick={() => setIsOpen(!isOpen)}>
@@ -34,10 +34,10 @@ const Navbar = () => {
             {isOpen ? (
               <Slide key={isOpen}>
               <div className="bg-[#161612] flex flex-col items-center gap-4 py-4 shadow-md md:hidden">
-                <a href="#inicio" onClick={() => setIsOpen(false)}>Inicio</a>
-                <a href="#proyectos" onClick={() => setIsOpen(false)}>Proyectos</a>
-                <a href="#sobremi" onClick={() => setIsOpen(false)}>Sobre mí</a>
-                <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
+                <a className="hover:text-gray-400" href="#inicio" onClick={() => setIsOpen(false)}>Inicio</a>
+                <a className="hover:text-gray-400" href="#proyectos" onClick={() => setIsOpen(false)}>Proyectos</a>
+                <a className="hover:text-gray-400" href="#sobremi" onClick={() => setIsOpen(false)}>Sobre mí</a>
+                <a className="hover:text-gray-400" href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
               </div>
               </Slide>
             ) : null}
@@ -50,10 +50,10 @@ const Navbar = () => {
             <div className="yo justify xl:pb-1"><div className="w-full justify-self-start xl:text-base">Mauricio Rodríguez</div><div className="text-xxs justify-self-start xl:text-xs">Web Developer</div></div>
     
             <ul className="hidden md:flex gap-6 text-gray-200 font-medium md:w-5/12 xl:text-base">
-              <li className="w-1/4"><a href="#inicio">Home</a></li>
-              <li className="w-1/4"><a href="#proyectos">Projects</a></li>
-              <li className="w-1/4"><a href="#sobremi">About me</a></li>
-              <li className="w-1/4"><a href="#skills">Skills</a></li>
+              <li className="w-1/4"><a className="hover:text-gray-400" href="#inicio">Home</a></li>
+              <li className="w-1/4"><a className="hover:text-gray-400" href="#proyectos">Projects</a></li>
+              <li className="w-1/4"><a className="hover:text-gray-400" href="#sobremi">About me</a></li>
+              <li className="w-1/4"><a className="hover:text-gray-400" href="#skills">Skills</a></li>
             </ul>
       
             <button className="md:hidden w-1/12" onClick={() => setIsOpen(!isOpen)}>
@@ -63,10 +63,10 @@ const Navbar = () => {
             {isOpen ? (
               <Slide key={isOpen}>
               <div className="bg-[#161612] flex flex-col items-center gap-4 py-4 shadow-md md:hidden">
-                <a href="#inicio" onClick={() => setIsOpen(false)}>Home</a>
-                <a href="#proyectos" onClick={() => setIsOpen(false)}>Projects</a>
-                <a href="#sobremi" onClick={() => setIsOpen(false)}>About me</a>
-                <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
+                <a className="hover:text-gray-400" href="#inicio" onClick={() => setIsOpen(false)}>Home</a>
+                <a className="hover:text-gray-400" href="#proyectos" onClick={() => setIsOpen(false)}>Projects</a>
+                <a className="hover:text-gray-400" href="#sobremi" onClick={() => setIsOpen(false)}>About me</a>
+                <a className="hover:text-gray-400" href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
               </div>
               </Slide>
             ) : null}
