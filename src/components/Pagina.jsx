@@ -3,9 +3,9 @@ import { FaFilePdf } from 'react-icons/fa';
 import ReactLogo from "../assets/react.svg";
 import Html from "../images/html.png";
 import gato from "../images/github.png";
-import inicio from "../images/mercadu.jpg";
+import inicio from "../images/mercadu.png";
 import gears from "../images/gears.png"
-import DolceAm from "../images/DolceAm.jpeg";
+import DolceAm from "../images/DolceAm.png";
 import balance from "../images/balance.png";
 import prof from "../images/mauprof.jpg";
 import { LanguageContexto } from "../context/LanguageContext";
@@ -15,8 +15,6 @@ import FolEstack from "./FolEstack";
 import Zoom from "../components/Zoom";
 import Fade from "../components/Fade"
 import { useInView } from 'react-intersection-observer';
-import Slide from "../components/Slide"
-import Fade2 from "../components/Fade2";
 
 const Pagina = () => {
 
@@ -46,11 +44,11 @@ const Pagina = () => {
               </div>
               <div className="w-full flex justify-center my-4">
               <button className="boton bg-[#161612] border font-semibold flex items-center sm:max-w-[150px] xs:max-w-[140px] md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/englishcv.pdf" download="CurriculumMauricioProf"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">Curriculum Vitae</div>
+                <a className="flex items-center w-full" href="/MauricioCVEspañol.pdf" download="CurriculumMauricioProf"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">Curriculum Vitae</div>
                 </a>
               </button>
               <button className="boton bg-[#161612] border font-semibold flex items-center sm:max-w-[150px] xs:max-w-[140px] xs:text-xs md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/MauricioHarvardCV.pdf" download="CurriculumMauricioHarvard"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">CV (estilo Harvard)</div>
+                <a className="flex items-center w-full" href="/MauricioHarvardCVEspañol.pdf" download="CurriculumMauricioHarvard"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">CV (estilo Harvard)</div>
                 </a>
               </button>
               </div>
@@ -198,7 +196,7 @@ const Pagina = () => {
                   </div>
             <div className="w-full flex justify-center my-4">
               <button className="boton bg-[#161612] border font-semibold flex items-center sm:max-w-[150px] xs:max-w-[140px] md:max-w-[160px] lg:max-w-[180px]">
-                <a className="flex items-center w-full" href="/englishcv.pdf" download="CurriculumMauricioProf"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">Curriculum Vitae</div>
+                <a className="flex items-center w-full" href="/MauricioCV.pdf" download="CurriculumMauricioProf"><div className="xs:w-1/6 flex justify-end"><FaFilePdf className="xs:w-3 xs:h-3 md:w-4 md:h-4"/></div><div className="w-5/6 xs:text-xs sm:text-sm lg:text-base flex justify-center items-center pb-0.5">Curriculum Vitae</div>
                 </a>
               </button>
               <button className="boton bg-[#161612] border font-semibold flex items-center sm:max-w-[150px] xs:max-w-[140px] xs:text-xs md:max-w-[160px] lg:max-w-[180px]">
